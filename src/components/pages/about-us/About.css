@@ -1,0 +1,10 @@
+.imgslide {
+  width: 100% !important;
+  height: auto !important;
+  object-fit: cover !important;
+  max-height: 100vh !important;
+}
+
+.img-light {
+  background-image: url("/public/logo-lol-dark.svg");
+}

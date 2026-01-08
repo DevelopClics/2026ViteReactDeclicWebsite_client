@@ -1,0 +1,159 @@
+.imagedefond-light {
+  background-image: url("/logo-bg-white.svg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+}
+.imagedefond-dark {
+  background-image: url("/logo-bg-black.svg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+.bg-darkness {
+  background-color: black !important;
+  background-color: #3f245c !important;
+}
+
+/* Couleur des boutons avec dropdown  */
+
+.dropdown-toggle-split {
+  color: #f3953f !important;
+}
+
+.btn-warning {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+/* .dropdown-menu {
+  margin-top: -10px !important;
+} */
+
+.navbar-toggler {
+  background-color: #f3953f;
+  border: medium solid white;
+}
+
+.navbar-toggler-icon {
+  background-image: url("../../../img/burger-nav.svg");
+}
+.navbar-toggler-expanded .navbar-toggler-icon {
+  background-image: url("../../../img/burger-nav-cross.svg");
+}
+
+.nav-link {
+  color: #f3953f !important;
+}
+
+.nav-style {
+  font-family: "Black";
+  border-color: #f3953f !important;
+  /* border-color: red !important; */
+
+  /* color: #f3953f; */
+  text-decoration: none;
+  /* transform: scale(1, 2); */
+}
+.nav-style-light {
+  color: white;
+  background-color: #3f245c;
+}
+.nav-style-dark {
+  color: #3f245c;
+  background-color: white;
+}
+.nav-style-white {
+  background-color: rgb(255, 255, 255);
+}
+.nav-style-black {
+  background-color: black;
+}
+
+.form-control {
+  background-color: "red" !important;
+}
+
+/* 
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+// Small devices (landscape phones, 576px and up) 
+*/
+.App-nav {
+  height: 80px;
+}
+
+@media (min-width: 576px) {
+  .App-nav {
+    height: 80px;
+  }
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /*  min-height: 50vh !important;   */
+  .App-nav {
+    height: 80px;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+/* // XX-Large devices (larger desktops, 1400px and up) */
+
+@media (min-width: 1400px) {
+}
+
+/* CHANGEMENT DE COULEUR AU SURVOL */
+.nav-style:hover,
+.nav-style:active {
+  color: #f3953f !important;
+  transition-duration: 0.3s;
+}
+
+.nav-style-light:hover {
+  background-color: #3f245c;
+}
+.nav-style-dark:hover {
+  background-color: white;
+}
+
+/* .nav-style:active {
+  border-color: transparent !important;
+} */
+
+.btn:active {
+  border-color: transparent !important;
+}
+
+/* .nav-link {
+  color: white !important;
+}
+.dropdown-menu .show {
+  background-color: red;
+} */
+
+/* CSS for slow unfolding dropdown */
+.dropdown-menu {
+  display: block !important;
+  visibility: hidden;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.8s ease, max-height 1.2s ease-out, visibility 1.2s; /* Increased opacity and visibility durations */
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  transform-origin: top; /* Consistent vertical movement from the top */
+}
+
+.dropdown-menu.show {
+  visibility: visible;
+  opacity: 1;
+  max-height: 500px; /* A value large enough to contain all content */
+  padding-top: var(--bs-dropdown-padding-y); /* Restore padding */
+  padding-bottom: var(--bs-dropdown-padding-y); /* Restore padding */
+}

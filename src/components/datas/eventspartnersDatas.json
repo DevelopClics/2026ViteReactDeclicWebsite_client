@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "image": "/images/clients/logo-chauvet2.png",
+    "alt": "Logo Grotte Chauvet 2",
+    "url": "https://www.grottechauvet2ardeche.com/"
+  },
+
+  {
+    "id": 2,
+    "image": "/images/clients/LOGO_SMAC07LABELS.png",
+    "alt": "Logo SMAC 07",
+    "url": "https://www.smac07.com/"
+  },
+  {
+    "id": 3,
+    "image": "/images/clients/Logo-Radio-Micheline.png",
+    "alt": "Logo Radio Micheline",
+    "url": "https://www.radiomicheline.com/"
+  },
+  {
+    "id": 4,
+    "image": "/images/clients/logo-PP.png",
+    "alt": "Logo Présence(s) photographie",
+    "url": "https://www.presences-photographie.fr/page/2929251-accueil"
+  },
+  {
+    "id": 5,
+    "image": "/images/clients/LOGO_Le_TiLT_baseline_x2_BLEU_RVB.png",
+    "alt": "Logo Le TiLT",
+    "url": "https://www.le-tilt.com/"
+  },
+  {
+    "id": 6,
+    "image": "/images/clients/logo-les-clefs.svg",
+    "alt": "Logo Les CLEFS,",
+    "url": "https://www.lesclefs-csc.fr/"
+  },
+  {
+    "id": 7,
+    "image": "/images/clients/logo-secours-pop.png",
+    "alt": "Logo secours populaire",
+    "url": "https://www.secourspopulaire.fr/07-le-teil/"
+  },
+  {
+    "id": 8,
+    "image": "/images/clients/logo-jazz-sur-un-plateau.png",
+    "alt": "Logo jazz sur un plateau",
+    "url": "https://www.jazz-sur-un-plateau-larnas.fr/"
+  }
+]

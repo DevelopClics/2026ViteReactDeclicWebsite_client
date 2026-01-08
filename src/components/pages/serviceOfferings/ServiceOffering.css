@@ -1,0 +1,55 @@
+li {
+  margin-top: 10px;
+}
+li:nth-child(odd of .puce-lol)::marker {
+  color: hotpink;
+  content: "✲ ";
+}
+li:nth-child(even of .puce-lol)::marker {
+  color: #0cdf9c;
+  content: "✲ ";
+}
+
+li:nth-child(odd of .conc)::marker {
+  color: #0cdf9c;
+  content: "✲ ";
+}
+li:nth-child(even of .conc)::marker {
+  color: #a6c712;
+  content: "✲ ";
+}
+
+li:nth-child(odd of .puce-animgames)::marker {
+  color: #0cdf9c;
+  content: "✲ ";
+}
+li:nth-child(even of .puce-animgames)::marker {
+  color: #dc0000;
+  content: "✲ ";
+}
+li:nth-child(odd of .puce-event)::marker {
+  color: #0cdf9c;
+  content: "✲ ";
+}
+li:nth-child(even of .puce-event)::marker {
+  color: #ff9100;
+  content: "✲ ";
+}
+
+li:nth-child(odd of .puce-diff)::marker {
+  color: #0cdf9c;
+  content: "✲ ";
+}
+li:nth-child(even of .puce-diff)::marker {
+  color: hotpink;
+  content: "✲ ";
+}
+
+li:nth-child(odd of .puce-peri)::marker {
+  color: #ff9100;
+  content: "✲ ";
+}
+li:nth-child(even of .puce-peri)::marker {
+  color: #0cdf9c;
+  content: "✲ ";
+}

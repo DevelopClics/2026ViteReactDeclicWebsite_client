@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "image": "/images/clients/logo-bistro-du-regain.svg",
+    "alt": "Logo Bistro du Regain",
+    "url": "https://www.facebook.com/BistroduRegain/?locale=fr_FR"
+  },
+
+  {
+    "id": 2,
+    "image": "/images/clients/Alaturka2.png",
+    "alt": "Logo kebab AlaTurka",
+    "url": "https://etcld.fr/"
+  },
+  {
+    "id": 3,
+    "image": "/images/clients/RestObox.png",
+    "alt": "Logo Resto Box",
+    "url": "https://restoboxcuisine.fr/"
+  },
+  {
+    "id": 4,
+    "image": "/images/clients/regal-et-moi.png",
+    "alt": "Logo Regal’et moi",
+    "url": "https://regaletmoi.com/"
+  },
+  {
+    "id": 5,
+    "image": "/images/clients/Anthonys2.png",
+    "alt": "Logo Pizza Anthony's",
+    "url": "https://anthonys.eatbu.com/"
+  },
+  {
+    "id": 6,
+    "image": "/images/clients/logo-coin-du-burger.svg",
+    "alt": "Logo Le coin du burger",
+    "url": "https://www.facebook.com/p/Le-Coin-du-Burger-100091358671609/"
+  }
+]

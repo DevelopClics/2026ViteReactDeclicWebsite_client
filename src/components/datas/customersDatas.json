@@ -1,0 +1,257 @@
+[
+  {
+    "id": 10,
+    "image": "/images/clients/logo-edf.png",
+    "alt": "Logo EDF",
+    "url": "https://www.edf.fr/"
+  },
+  {
+    "id": 20,
+    "image": "/images/clients/holcim_logo_color.svg",
+    "alt": "Logo Lafarge",
+    "url": "https://www.lafarge.fr/notre-histoire"
+  },
+
+  {
+    "id": 30,
+    "image": "/images/clients/logo-france-travail.png",
+    "alt": "Logo France Travail",
+    "url": "https://www.francetravail.fr/accueil/"
+  },
+  {
+    "id": 40,
+    "image": "/images/ardeche-le-departement_2021_285c.svg",
+    "alt": "Logo Département de l'Ardèche",
+    "url": "https://www.ardeche.fr/"
+  },
+
+  {
+    "id": 50,
+    "image": "/images/clients/Logo_CCAS.svg",
+    "alt": "Logo CCAS du Teil",
+    "url": "https://www.mairie-le-teil.fr/vie-quotidienne/sante/accompagnement-social-ccas/"
+  },
+  {
+    "id": 60,
+    "image": "/images/clients/logo-draga.png",
+    "alt": "Logo CC DRAGA",
+    "url": "https://www.ccdraga.fr/"
+  },
+  {
+    "id": 70,
+    "image": "/images/clients/logo-comité-de-jumelage.png",
+    "alt": "Logo de Comité de Jumelage Bourg-Saint-Andéol.",
+    "url": "https://www.facebook.com/p/Comite-Jumelage-Bourg-Saint-Andeol-100073175067582/"
+  },
+
+  {
+    "id": 80,
+    "image": "/images/clients/Logo-Aven-Orgnac.png",
+    "alt": "Logo Aven d'Orgnac",
+    "url": "https://www.orgnac.com/"
+  },
+
+  {
+    "id": 90,
+    "image": "/images/clients/logo-chauvet2.png",
+    "alt": "Logo Grotte Chauvet 2",
+    "url": "https://www.grottechauvet2ardeche.com/"
+  },
+
+  {
+    "id": 100,
+    "image": "/images/clients/logo-PP.png",
+    "alt": "Logo Présence(s) photographie",
+    "url": "https://www.presences-photographie.fr/page/2929251-accueil"
+  },
+  {
+    "id": 110,
+    "image": "/images/clients/LOGO_SMAC07LABELS.png",
+    "alt": "Logo SMAC 07",
+    "url": "https://www.smac07.com/"
+  },
+  {
+    "id": 120,
+    "image": "/images/clients/LACASCADE_logo.svg",
+    "alt": "Logo La Cascade",
+    "url": "https://lacascade.org/"
+  },
+  {
+    "id": 130,
+    "image": "/images/clients/logo-tdp-2025-w-label.svg",
+    "alt": "Logo Théatre de Privas",
+    "url": "https://www.theatredeprivas.com/"
+  },
+  {
+    "id": 140,
+    "image": "/images/clients/Logo-Radio-Micheline.png",
+    "alt": "Logo Radio Micheline",
+    "url": "https://www.radiomicheline.com/"
+  },
+
+  {
+    "id": 150,
+    "image": "/images/clients/logo-jazz-sur-un-plateau.png",
+    "alt": "Logo jazz sur un plateau",
+    "url": "https://www.jazz-sur-un-plateau-larnas.fr/"
+  },
+
+  {
+    "id": 160,
+    "image": "/images/clients/Logo_Château-verchaüs.svg",
+    "alt": "Logo Collectif Château de Verchaüs",
+    "url": "https://www.chateaudeverchaus.com/"
+  },
+  {
+    "id": 170,
+    "image": "/images/clients/logo-bistro-du-regain.svg",
+    "alt": "Logo Bistro du Regain",
+    "url": "https://www.facebook.com/BistroduRegain/?locale=fr_FR"
+  },
+  {
+    "id": 180,
+    "image": "/images/clients/logo-pomme-cannelle.png",
+    "alt": "Logo Pomme Cannelle",
+    "url": "https://www.facebook.com/pommecannelle.net/?locale=fr_FR"
+  },
+  {
+    "id": 190,
+    "image": "/images/clients/Logo_arc-en-ciel.png",
+    "alt": "Logo Arc en Ciel",
+    "url": "https://www.facebook.com/arcencielfrate07#"
+  },
+
+  {
+    "id": 200,
+    "image": "/images/clients/Logo_Activiteil.svg",
+    "alt": "Logo ActiviTeil",
+    "url": "https://www.activiteil.fr/"
+  },
+  {
+    "id": 210,
+    "image": "/images/clients/Rebond_logo.svg",
+    "alt": "Logo Rebond",
+    "url": "https://rebond-leteil.mystrikingly.com/"
+  },
+
+  {
+    "id": 220,
+    "image": "/images/clients/logo-les-clefs.svg",
+    "alt": "Logo Les CLEFS,",
+    "url": "https://www.lesclefs-csc.fr/"
+  },
+  {
+    "id": 230,
+    "image": "/images/clients/LOGO_Le_TiLT_baseline_x2_BLEU_RVB.png",
+    "alt": "Logo Le TiLT",
+    "url": "https://www.le-tilt.com/"
+  },
+  {
+    "id": 240,
+    "image": "/images/clients/logo-MPT-du-plan.png",
+    "alt": "Logo MTP du Plan",
+    "url": "https://www.valence.fr/equipement/mpt-du-plan/"
+  },
+  {
+    "id": 250,
+    "image": "/images/clients/Logo_AssoCLM.svg",
+    "alt": "Logo Café Littéraire Montélimar",
+    "url": "https://lescafeslitteraires.fr/"
+  },
+  {
+    "id": 260,
+    "image": "/images/clients/Logo-Turlupinades.png",
+    "alt": "Logo Turlupinades",
+    "url": "https://www.facebook.com/turlupinades/?locale=fr_FR"
+  },
+  {
+    "id": 270,
+    "image": "/images/clients/logo-alpev.svg",
+    "alt": "Logo ALPEV de Viviers",
+    "url": "https://static.mairie-viviers.fr/media/documents/alpev-espace-vie-sociale-16-17.pdf"
+  },
+  {
+    "id": 280,
+    "image": "/images/clients/logo-secours-pop.png",
+    "alt": "Logo secours populaire",
+    "url": "https://www.secourspopulaire.fr/07-le-teil/"
+  },
+
+  {
+    "id": 290,
+    "image": "/images/clients/mediacom.png",
+    "alt": "Logo Mediacom",
+    "url": "https://www.facebook.com/p/Association-Mediacom-100064476642534/"
+  },
+
+  {
+    "id": 300,
+    "image": "/images/clients/logo-centre-social-Michel-Colucci.png",
+    "alt": "Logo centre social Colucci Montélimar",
+    "url": "https://www.montelimar.fr/animation-sociales/centre-social-colucci/"
+  },
+
+  {
+    "id": 310,
+    "image": "/images/clients/logo-adapei07.svg",
+    "alt": "Logo Adapéi de l'Ardèche",
+    "url": "https://www.adapei07.fr/"
+  },
+  {
+    "id": 320,
+    "image": "/images/clients/logo-gaia-eam-noisy-le-grand.svg",
+    "alt": "Logo Gaia",
+    "url": "https://www.gapas.org/etablissement/gaia-e-m-noisy-le-grand"
+  },
+
+  {
+    "id": 330,
+    "image": "/images/clients/logo-les-zazas.png",
+    "alt": "Logo Les Zazas",
+    "url": "https://leszazas.org/"
+  },
+  {
+    "id": 340,
+    "image": "/images/clients/logo-les-peupliers.png",
+    "alt": "Logo Les Peupliers",
+    "url": "https://www.pour-les-personnes-agees.gouv.fr/annuaire-ehpad-et-maisons-de-retraite/ehpad/ardeche-07/le-teil-07400/ehpad-residence-les-peupliers/070783683"
+  },
+  {
+    "id": 350,
+    "image": "/images/clients/logo-foyer-avon.png",
+    "alt": "Logo Foyer Alice Avon",
+    "url": "https://foyeraliceavon07.jimdofree.com/"
+  },
+
+  {
+    "id": 360,
+    "image": "/images/clients/plateforme-culture.svg",
+    "alt": "Logo Plateforme culture",
+    "url": "???????????????????????????????????????????????????????"
+  },
+  {
+    "id": 370,
+    "image": "/images/clients/logo-lycee-xavier-mallet.png",
+    "alt": "Logo Lycée Xavier Mallet",
+    "url": "https://lyc-xavier-mallet.ent.auvergnerhonealpes.fr/"
+  },
+
+  {
+    "id": 380,
+    "image": "/images/clients/Logo_école-Gabriel-Longueville.png",
+    "alt": "Logo OGEC Gabriel de Longueville",
+    "url": "https://lapresentation-leteil.org/"
+  },
+  {
+    "id": 390,
+    "image": "/images/clients/Logo_lycée-st-andré.png",
+    "alt": "Logo Lycée Saint-André",
+    "url": "https://www.lyceesaintandre.fr/"
+  },
+  {
+    "id": 400,
+    "image": "/images/clients/logo-ALRP.svg",
+    "alt": "Logo Amicale laïque de l’école de Rosa Parks",
+    "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/amicale-laique-rosa-parks-923528269"
+  }
+]

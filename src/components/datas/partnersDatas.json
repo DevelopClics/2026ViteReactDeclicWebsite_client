@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "image": "/images/logo-tzc-h.svg",
+    "alt": "Logo TZCLD",
+    "url": "https://www.tzcld.fr/"
+  },
+  {
+    "id": 2,
+    "image": "/images/ETCLD_long_COUL_LOGOavecaccent.svg",
+    "alt": "Logo ETCLD",
+    "url": "https://etcld.fr/"
+  },
+  {
+    "id": 3,
+    "image": "/images/Ministère_du_Travail.svg",
+    "alt": "Logo Ministère_du_Travail",
+    "url": "https://choisirleservicepublic.gouv.fr/employeurs/ministere-du-travail-emploi-et-insertion/"
+  },
+  {
+    "id": 4,
+    "image": "/images/Préfète_de_l'Ardèche.svg",
+    "alt": "Logo Préfète de l'Ardèche",
+    "url": "https://www.ardeche.gouv.fr/"
+  },
+  {
+    "id": 5,
+    "image": "/images/ardeche-le-departement_2021_285c.svg",
+    "alt": "Logo Département de l'Ardèche",
+    "url": "https://www.ardeche.fr/"
+  },
+  {
+    "id": 6,
+    "image": "/images/logos/Logo_Arc.png",
+    "alt": "Logo arc",
+    "url": "https://ardecherhonecoiron.fr/"
+  },
+  {
+    "id": 7,
+    "image": "/images/logos/Logo_Le_Teil.svg",
+    "alt": "Logo Mairie Le Teil",
+    "url": "https://www.mairie-le-teil.fr/"
+  },
+  {
+    "id": 8,
+    "image": "/images/logos/AGEFIPH_LOGO_rvb.svg",
+    "alt": "Logo Agephiph",
+    "url": "https://www.mairie-le-teil.fr/"
+  },
+  {
+    "id": 9,
+    "image": "/images/logos/cropped-Logo_Horizontal_Couleur.png",
+    "alt": "Logo La poule rousse",
+    "url": "https://lapoulerousse.org/"
+  }
+]

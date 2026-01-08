@@ -1,0 +1,83 @@
+.App-foot {
+  height: 100vmin;
+}
+
+.App-logo-foot {
+  height: 4vmin;
+}
+
+.foot-link {
+  color: #f3953f !important;
+  /* color: yellow !important; */
+  text-decoration: none;
+}
+
+/* .foot-style,
+.foot-style-light {
+  color: #f3953f;
+  color: yellow;
+  text-decoration: none;
+} */
+
+.foot-link {
+  font-family: "Black";
+  color: yellow;
+}
+/* .foot-style-light {
+  font-family: "Regular";
+} */
+
+.rs-link {
+  text-decoration: none;
+}
+
+.App-logo-foot {
+  margin-top: -0.3vh !important;
+  height: 3vh;
+}
+
+@media (min-width: 576px) {
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /*  min-height: 50vh !important;   */
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
+
+.foot-bold {
+  font-family: "Black";
+  color: yellow;
+}
+
+.foot-reg {
+}
+
+.foot-style-light {
+  color: white;
+  text-decoration: none;
+}
+.foot-style-dark {
+  color: #3f245c;
+  text-decoration: none;
+}
+.im-fond {
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+}
+.imagedefond-footer-light {
+  background-image: url("/logo-dedc-sm-light.svg");
+}
+.imagedefond-footer-dark {
+  background-image: url("/logo-dedc-sm-dark.svg");
+}

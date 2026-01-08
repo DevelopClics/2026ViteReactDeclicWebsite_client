@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "pct": "/images/loc-vaisselle/rentdishes01.JPG",
+    "alt": "Présentation de table N°01"
+  },
+
+  {
+    "id": 2,
+    "pct": "/images/loc-vaisselle/rentdishes02.JPG",
+    "alt": "Présentation de table N°02"
+  },
+  {
+    "id": 3,
+    "pct": "/images/loc-vaisselle/rentdishes03.JPG",
+    "alt": "Présentation de table N°03"
+  },
+  {
+    "id": 4,
+    "pct": "/images/loc-vaisselle/rentdishes04.JPG",
+    "alt": "Présentation de table N°04"
+  },
+  {
+    "id": 5,
+    "pct": "/images/loc-vaisselle/rentdishes06.JPG",
+    "alt": "Présentation de table N°05"
+  },
+  {
+    "id": 7,
+    "pct": "/images/loc-vaisselle/rentdishes07.JPG",
+    "alt": "Présentation de table N°06"
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "image": "/images/team/AB.jpg",
+    "alt": "photo de AB",
+    "speed": 5
+  },
+  {
+    "id": 2,
+    "image": "/images/team/AL.jpg",
+    "alt": "photo de AL",
+    "speed": 3
+  },
+  {
+    "id": 3,
+    "image": "/images/team/AG.jpg",
+    "alt": "photo de AG",
+    "speed": 8
+  },
+
+  {
+    "id": 4,
+    "image": "/images/team/AR.jpg",
+    "alt": "photo de AR",
+
+    "speed": 3
+  },
+
+  {
+    "id": 5,
+    "image": "/images/team/CF.jpg",
+    "alt": "photo de CF",
+    "speed": 2
+  },
+  {
+    "id": 6,
+    "image": "/images/team/CA.jpg",
+    "alt": "photo de CA",
+    "speed": 8
+  },
+  {
+    "id": 8,
+    "image": "/images/team/CR.jpg",
+
+    "alt": "photo de CR",
+    "speed": 5
+  },
+
+  {
+    "id": 9,
+    "image": "/images/team/DC.jpg",
+    "alt": "photo de DC",
+    "speed": 3
+  },
+
+  {
+    "id": 10,
+    "image": "/images/team/DD.jpg",
+
+    "alt": "photo de DD",
+    "speed": 5
+  },
+
+  {
+    "id": 11,
+    "image": "/images/team/OR1.jpg",
+    "alt:": "photo de EB",
+    "speed": 4
+  },
+
+  {
+    "id": 112,
+    "image": "/images/team/FE.jpg",
+    "alt": "photo de Fathia",
+    "speed": 2
+  },
+
+  {
+    "id": 12,
+    "image": "/images/team/FP.jpg",
+    "alt": "photo de FP",
+    "speed": 4
+  },
+  {
+    "id": 13,
+    "image": "/images/team/FS.jpg",
+    "alt": "photo de FS",
+    "speed": 6
+  },
+
+  {
+    "id": 14,
+    "image": "/images/team/HR1.jpg",
+    "alt": "photo de HR1",
+    "speed": 7
+  },
+  {
+    "id": 15,
+    "image": "/images/team/HR2.jpg",
+    "alt": "photo de HR2",
+    "speed": 4
+  },
+
+  {
+    "id": 16,
+    "image": "/images/team/IC.jpg",
+    "alt": "photo de IC",
+    "speed": 6
+  },
+  {
+    "id": 161,
+    "image": "/images/team/IG.jpg",
+    "alt": "photo de IG",
+    "speed": 5
+  },
+
+  {
+    "id": 17,
+    "image": "/images/team/JG3.jpg",
+    "alt": "photo de JG3",
+    "speed": 5
+  },
+
+  {
+    "id": 18,
+    "image": "/images/team/JG2.jpg",
+    "alt": "photo de JG2",
+    "speed": 7
+  },
+
+  {
+    "id": 19,
+    "image": "/images/team/JG1.jpg",
+    "alt": "photo de JG1",
+    "speed": 4
+  },
+  {
+    "id": 20,
+    "image": "/images/team/JT.jpg",
+    "alt": "photo de JT",
+    "speed": 5
+  },
+  {
+    "id": 21,
+    "image": "/images/team/JN.jpg",
+    "alt": "photo de JN",
+    "speed": 4
+  },
+
+  {
+    "id": 22,
+    "image": "/images/team/LG.jpg",
+    "alt": "photo de LG",
+    "speed": 2
+  },
+
+  {
+    "id": 23,
+    "image": "/images/team/MB.jpg",
+    "alt": "photo de MB",
+    "speed": 3
+  },
+
+  {
+    "id": 24,
+    "image": "/images/team/ND.jpg",
+    "alt": "photo de ND",
+    "speed": 4
+  },
+
+  {
+    "id": 25,
+    "image": "/images/team/NG.jpg",
+    "alt:": "photo de NG",
+    "speed": 2
+  },
+  {
+    "id": 26,
+    "image": "/images/team/NK.jpg",
+    "alt": "photo de couleur N",
+    "speed": 4
+  },
+
+  {
+    "id": 27,
+    "image": "/images/team/OR2.jpg",
+    "alt": "photo de OR2",
+    "speed": 7
+  },
+
+  {
+    "id": 28,
+    "image": "/images/team/PD.jpg",
+    "alt": "photo de PD",
+    "speed": 6
+  },
+  {
+    "id": 29,
+    "image": "/images/team/PT.jpg",
+    "alt": "photo de PT",
+    "speed": 5
+  },
+
+  {
+    "id": 30,
+    "image": "/images/team/RB.jpg",
+    "alt": "photo de RB",
+    "speed": 1
+  },
+
+  {
+    "id": 31,
+    "image": "/images/team/SM.jpg",
+    "alt:": "photo de SM",
+    "speed": 3
+  },
+  {
+    "id": 310,
+    "image": "/images/team/magenta.jpg",
+    "alt": "photo de couleur E",
+    "speed": 8
+  },
+  {
+    "id": 32,
+    "image": "/images/team/SB1.jpg",
+    "alt": "photo de SB1",
+    "speed": 5
+  },
+
+  {
+    "id": 33,
+    "image": "/images/team/AF.jpg",
+    "alt": "photo de AF",
+    "speed": 3
+  },
+
+  {
+    "id": 34,
+    "image": "/images/team/DP.jpg",
+    "alt": "photo de Dominique",
+    "speed": 4
+  },
+
+  {
+    "id": 35,
+    "image": "/images/team/MF.jpg",
+    "alt": "photo de MF",
+    "speed": 6
+  },
+  {
+    "id": 36,
+    "image": "/images/team/PS.jpg",
+    "alt": "photo de MF",
+    "speed": 3
+  },
+
+  {
+    "id": 37,
+    "image": "/images/team/WL.jpg",
+    "alt": "photo de WL",
+    "speed": 4
+  },
+
+  {
+    "id": 38,
+    "image": "/images/team/TD.jpg",
+    "alt": "photo de TD",
+    "speed": 3
+  },
+  {
+    "id": 39,
+    "image": "/images/team/SB2.jpg",
+    "alt": "photo de SB2",
+    "speed": 5
+  },
+  {
+    "id": 101,
+    "image": "/images/team/jaune.jpg",
+    "alt": "photo de couleur C",
+    "speed": 4
+  }
+]

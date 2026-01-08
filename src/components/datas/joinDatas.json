@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "image": "/images/clients/Emerveillés-Ardèche.svg",
+    "alt": "Logo Emerveillés par l'Ardèche,",
+    "url": "https://www.emerveillesparlardeche.com/"
+  },
+  {
+    "id": 2,
+    "image": "/images/clients/Cap Le Teil.png",
+    "alt": "Logo Cap Le Teil,",
+    "url": "https://www.facebook.com/capleteil/?locale=fr_FR"
+  },
+  {
+    "id": 3,
+    "image": "/images/clients/logo-arcade.png",
+    "alt": "Logo Arc'ADE",
+    "url": "https://www.arc-ade.fr/"
+  }
+]

@@ -1,0 +1,49 @@
+.decal-left {
+}
+.decal-middle {
+}
+.decal-right {
+}
+/* MEDIAQUERIES */
+@media (min-width: 576px) {
+  .decal-left {
+  }
+  .decal-middle {
+  }
+  .decal-right {
+  }
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /*  min-height: 50vh !important;   */
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* .decal-left {
+    margin-top: 15vh;
+  }
+  .decal-middle {
+    margin-top: 0vh;
+  }
+  .decal-right {
+    margin-top: -10vh;
+  } */
+}
+/* // XX-Large devices (larger desktops, 1400px and up) */
+
+@media (min-width: 1400px) {
+  .decal-left {
+    margin-top: -10vh;
+  }
+  .decal-middle {
+    margin-top: 0vh;
+  }
+  .decal-right {
+    margin-top: -10vh;
+  }
+}

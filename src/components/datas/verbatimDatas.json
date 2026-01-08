@@ -1,0 +1,129 @@
+[
+  {
+    "id": 1,
+    "verb": "Je suis parti de chez mes parents, enfin la liberté !",
+    "backgroundcolor": "#d3f0d7",
+    "backgroundcolor": "yellow"
+  },
+  {
+    "id": 2,
+    "verb": "Malgré mon côté introverti, j'ai rencontré des gens, j'ai pu m'affirmer et j'ai appris à dire NON !",
+    "backgroundcolor": "#d3e1f0",
+    "backgroundcolor": "darkorange"
+  },
+  {
+    "id": 3,
+    "verb": "à 62 balais, me voir retravailler a reboosté ma fille !",
+    "backgroundcolor": "#ddd3f0",
+    "backgroundcolor": "deeppink"
+  },
+
+  {
+    "id": 4,
+    "verb": "Le retour à l'emploi, ça m'a permis de ne plus chercher ! Je peux souffler, je suis moins stressé.",
+    "backgroundcolor": "#d3f0d7",
+    "backgroundcolor": "greenyellow"
+  },
+  {
+    "id": 5,
+    "verb": "Ici, je fais ce que j'aime et je suis investi dans des projets intéressants. Forcément j'ai moins de temps pour mes activités personnelles mais j'ai plus d'argent pour les loisirs !",
+    "backgroundcolor": "#d3e1f0",
+    "backgroundcolor": "violet"
+  },
+  {
+    "id": 6,
+    "verb": "ça m'a enlevé une épine du cœur, j'ai pu payer mes charges et envisager de faire des extras.",
+    "backgroundcolor": "#ddd3f0",
+    "backgroundcolor": "tomato"
+  },
+
+  {
+    "id": 7,
+    "verb": "je suis allée chez le coiffeur ! Chez Béa ! Je rigole, je rencontre du monde et les journées passent vite !",
+    "backgroundcolor": "#d3f0d7",
+    "backgroundcolor": "turquoise"
+  },
+  {
+    "id": 8,
+    "verb": "ma vie a commencé à avoir un rythme, elle n'est plus monotone comme avant !",
+    "backgroundcolor": "#d3e1f0",
+    "backgroundcolor": "yellow"
+  },
+  {
+    "id": 9,
+    "verb": "ça m'a permis de rencontrer de nouvelles personnes, de me faire des amis, d'agrandir mon réseau.",
+    "backgroundcolor": "#ddd3f0",
+    "backgroundcolor": "darkorange"
+  },
+
+  {
+    "id": 10,
+    "verb": "J'ai rencontré des personnes formidables que je n'aurais jamais connu si je ne travaillais pas à Déclic, je ne me serais jamais approchée de personnes aussi différentes les unes des autres.",
+    "backgroundcolor": "#d3f0d7",
+    "backgroundcolor": "deeppink"
+  },
+  {
+    "id": 11,
+    "verb": "Plus je cotise, mieux c'est pour ma retraite !",
+    "backgroundcolor": "#d3e1f0",
+    "backgroundcolor": "greenyellow"
+  },
+  {
+    "id": 12,
+    "verb": "J'ai mis de l'argent de côté pour aller en Espagne, ça fait 24 ans que j'ai pas mis les pieds là-bas.",
+    "backgroundcolor": "#ddd3f0",
+    "backgroundcolor": "violet"
+  },
+
+  {
+    "id": 13,
+    "verb": "Maintenant je peux payer mes factures sans soucis, on était très serré avant. Et je mets même de l'argent de côté pour qu'on s'échappe en Sicile, le pays de mon mari j'ai changé de train de vie.",
+    "backgroundcolor": "#d3f0d7",
+    "backgroundcolor": "tomato"
+  },
+  {
+    "id": 14,
+    "verb": "j'ai repris confiance en moi en tant que femme, je ne suis pas qu'une maman ! Maison, ménage, repas, je suis fière de travailler !",
+    "backgroundcolor": "#d3e1f0",
+    "backgroundcolor": "turquoise"
+  },
+  {
+    "id": 15,
+    "verb": "J'ai rencontré des gens que je n'aurais jamais rencontré sans travailler en EBE, je me suis sentie épanouie les sous c'est la liberté ! ",
+    "backgroundcolor": "#ddd3f0",
+    "backgroundcolor": "yellow"
+  },
+
+  {
+    "id": 16,
+    "verb": "Je peux faire des choses que je ne faisais pas avant, acheter des produits de meilleure qualité.",
+    "backgroundcolor": "#d3f0d7",
+    "backgroundcolor": "darkorange"
+  },
+  {
+    "id": 17,
+    "verb": "Mon dernier plaisir : je me suis acheté un gâteau à la framboise ! Je traîne moins avec les potes dehors, je bois moins de bière.",
+    "backgroundcolor": "#d3e1f0",
+    "backgroundcolor": "deeppink"
+  },
+  {
+    "id": 18,
+    "verb": "Mon mental s'améliore, je suis moins nerveux, plus apaisé, je prends du recul. Maman est rassurée que je travaille.",
+    "backgroundcolor": "#ddd3f0",
+    "backgroundcolor": "greenyellow"
+  },
+
+  {
+    "id": 19,
+    "verb": "ça m'a donné confiance en moi, j'ai découvert des capacités que je pensais pas avoir, avant j'étais timide et ça s'est débloqué d'un coup.",
+    "backgroundcolor": "#d3f0d7",
+    "backgroundcolor": "violet"
+  },
+
+  {
+    "id": 20,
+    "verb": "ça m'a permis d'éviter la dépression et de voir du monde avant j'aurais jamais dansé devant tout le monde, je me souciais trop du regard des autres, maintenant je suis bien dans ma peau !",
+    "backgroundcolor": "#d3e1f0",
+    "backgroundcolor": "tomato"
+  }
+]

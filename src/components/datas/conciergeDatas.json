@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "pct": "https://images.unsplash.com/photo-1560449752-b5d5c1c89cee?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1500&amp;w=2000&amp;fit=clip&amp;fm=jpg",
+    "alt": "Photo de check in",
+    "title": "Check-in",
+    "line1": "Organisation des arrivées",
+    "line2": "Gestion et remise des clés",
+    "line3": "Visite et présentatation de votre logement",
+    "line4": "Conseil touristique"
+  },
+
+  {
+    "id": 2,
+    "pct": "https://images.unsplash.com/photo-1562886877-f12251816e01?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1500&amp;w=2000&amp;fit=clip&amp;fm=jpg",
+    "alt": "Photo de nettoyage et entretien de logement",
+    "title": "Nettoyage et entretien du logement",
+    "line1": " Nettoyage entre chaque voyageur",
+    "line2": "Nettoyage en profondeur de début de saison",
+    "line3": "Nettoyage des vitres",
+    "line4": "Petite réparation  durant le séjour"
+  },
+  {
+    "id": 3,
+    "pct": "/images/concierge/AdobeStock_476593545.jpeg",
+    "alt": "Photo de blanchisserie",
+    "title": "Blanchisserie",
+    "line1": "Nettoyage et repassage du linge de maison",
+    "line2": "Préparation des literies",
+    "line3": "",
+    "line4": ""
+  },
+  {
+    "id": 4,
+    "pct": "/images/concierge/AdobeStock_287773971.jpeg",
+    "alt": "Photo d'Entretien des extérieurs",
+    "title": "Entretien des extérieurs",
+    "line1": "Tonte , taille, débroussaillage",
+    "line2": "Nettoyage des allées et massifs",
+    "line3": "Elagage, bûcheronnage",
+    "line4": "Nettoyage de piscine"
+  },
+  {
+    "id": 5,
+    "pct": "https://images.unsplash.com/photo-1493934558415-9d19f0b2b4d2?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1500&amp;w=2000&amp;fit=clip&amp;fm=jpg",
+    "alt": "Photo de Check-out",
+    "title": "Check-out",
+    "line1": "Etat des lieux",
+    "line2": "Récupération des clés",
+    "line3": "Mise en sécutité des lieux",
+    "line4": ""
+  }
+]

@@ -1,0 +1,30 @@
+.btntoggle {
+    z-index: 8000;
+    width: 30px;
+    height: 30px;
+  
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .btntogglelight {
+    color: #ffffff;
+    border: 4px solid #3f245c !important;
+    background: #3f245c !important;
+  }
+  .btntoggledark {
+    color: #ffffff;
+    border: 4px solid #f79447 !important;
+    background: #f79447!important;
+  }
+  
+  /* @media screen and (max-width: 767px) {
+    .light::after,
+    .dark::after {
+      content: "";
+    }
+  } */
+  
