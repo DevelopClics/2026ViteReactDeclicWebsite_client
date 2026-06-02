@@ -32,27 +32,44 @@ const Loc = () => {
             vie et faites un geste pour la planète ! A vos commandes !
           </h5>
 
-          <h5 className="pt-2 Texte1 text-start">
-            {/* <span style={{ color: "red" }}>
-              Reprendre l’esprit de la carte postale Reprendre les infos du kit
-              vaisselle et du forfait vaisselle (informations sur la Carte
-              postale) + la photo + -20% pour les assos + autre photo (Floriane)
-              Infos à venir Caroline sur la décoration de table{" "}
-            </span>{" "}
-            <br /> */}
-            <div className="my-5 text-center">
-              <Picture
-                classe=" col-12 mb-3 mb-lg-0
+          <h5 className="pt-2 Texte1 text-start  ">
+            <div className="my-5 text-center ">
+            <div className="row">
+                <div className="col-12 col-lg-6 d-flex mb-3">
+                  <div style={{ height: "400px" }} className="w-100">
+                    <Picture
+                      pct={loc01}
+                      classe="rounded-5 w-100 h-100"
+                      alt="Photo vue intérieure du LOL"
+                    />
+                  </div>
+                </div>
+
+                <div className="col-12 col-lg-6 d-flex mb-3">
+                  <div style={{ height: "400px" }} className="w-100">
+                    <Picture
+                      pct={loc02}
+                      classe="rounded-5 w-100 h-100"
+                      alt="Photo vue extérieure du LOL"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              {/* <div className="row">
+                <Picture
+                  classe=" col-12 mb-3 mb-lg-0
               me-lg-4 
               col-lg-5 rounded-5"
-                pct={loc01}
-                alt="Photo vue extérieure du LOL"
-              />
-              <Picture
-                classe=" col-12 mt-3 mt-lg-0 ms-lg-4 col-lg-5 rounded-5"
-                pct={loc02}
-                alt="Photo vue extérieure du LOL"
-              />
+                  pct={loc01}
+                  alt="Photocarte recto"
+                />
+                <Picture
+                  classe=" col-12 mt-3 mt-lg-0 ms-lg-4 col-lg-5 rounded-5"
+                  pct={loc02}
+                  alt="Photo carte verso"
+                />
+              </div> */}
             </div>
             <Quote
               line1="J'ai fait appel à l'association Déclic et des Claps

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Spinner from "react-bootstrap/Spinner";
 
 const ResponsiveBanner = ({
@@ -13,6 +13,9 @@ const ResponsiveBanner = ({
   const [imageHasLoaded, setImageHasLoaded] = useState(false);
   const [currentSrc, setCurrentSrc] = useState("");
   const [showSpinner, setShowSpinner] = useState(false);
+
+  const bannerRef = useRef(null);
+  const bgRef = useRef(null);
 
   useEffect(() => {
     const updateImageSrc = () => {
@@ -53,13 +56,39 @@ const ResponsiveBanner = ({
     } else {
       const spinnerTimer = setTimeout(() => {
         setShowSpinner(true);
-      }, 10); // Show spinner after 10ms if image is still loading
+      }, 10);
       return () => clearTimeout(spinnerTimer);
     }
   }, [imageHasLoaded]);
 
   return (
-    <div className="banner-frame">
+    <div
+      ref={bannerRef}
+      className="banner-frame"
+      style={{
+        overflow: "hidden",
+        visibility: loading ? "hidden" : "visible",
+        opacity: loading ? 0 : 1,
+        transition: "opacity 0.5s ease-in-out",
+        position: "relative",
+      }}
+    >
+      <div
+        ref={bgRef}
+        style={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%",
+          backgroundImage: currentSrc ? `url(${currentSrc})` : "none",
+          backgroundPosition: "center top",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "110% auto",
+          backgroundAttachment: "fixed",
+          zIndex: 0,
+        }}
+      />
       {loading && showSpinner && (
         <div
           style={{
@@ -81,28 +110,11 @@ const ResponsiveBanner = ({
       )}
       {currentSrc && (
         <img
-          className="Banner"
           src={currentSrc}
           alt="bienvenue"
-          onLoad={() => {
-            console.log(
-              "ResponsiveBanner: Image loaded successfully. src:",
-              currentSrc
-            );
-            setImageHasLoaded(true);
-          }}
-          onError={() => {
-            console.error(
-              "ResponsiveBanner: Error loading image. src:",
-              currentSrc
-            );
-            setImageHasLoaded(true);
-          }}
-          style={{
-            visibility: loading ? "hidden" : "visible",
-            opacity: loading ? 0 : 1,
-            transition: "opacity 0.1s ease-in-out",
-          }}
+          onLoad={() => setImageHasLoaded(true)}
+          onError={() => setImageHasLoaded(true)}
+          style={{ display: "none" }}
         />
       )}
     </div>

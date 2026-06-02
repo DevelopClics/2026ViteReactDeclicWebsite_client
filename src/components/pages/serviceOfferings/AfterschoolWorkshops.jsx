@@ -55,16 +55,21 @@ const AfterschoolWorkshops = () => {
           </h5>
 
           <div className="row">
-            <Picture
-              classe="col-6 rounded-5 img-fluid"
-              pct={pctPeri01}
-              alt="Photo affichage"
-            />
-            <Picture
-              classe="col-6 rounded-5 img-fluid"
-              pct={pctPeri02}
-              alt="Photo affichage"
-            />
+            <div className="col-12 col-lg-6 d-flex">
+              <Picture
+                pct={pctPeri01}
+                classe="rounded-5 w-100 h-100"
+                alt="Photo"
+              />
+            </div>
+
+            <div className="col-12 col-lg-6 d-flex">
+              <Picture
+                pct={pctPeri02}
+                classe="rounded-5 w-100 h-100"
+                alt="Photo"
+              />
+            </div>
           </div>
         </div>
       </div>

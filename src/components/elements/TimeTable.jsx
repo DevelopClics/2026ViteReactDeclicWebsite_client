@@ -1,4 +1,5 @@
 import React from "react";
+import IMAGE from "../../img/horaires-avril.svg";
 
 const TimeTable = () => {
   return (
@@ -38,14 +39,15 @@ const TimeTable = () => {
           <h5 className="bal col-12 pt-0 Texte1 text-start">
             <ul>
               <li className="puce-lol">
-                <strong>DECEMBRE</strong>
+                <strong>PRINTEMPS</strong>
               </li>
               <br />
-              <strong>Mercredi & samedi</strong> 14h ⇨ 23h
+              {/* <strong>Mercredi & samedi</strong> 14h ⇨ 23h
               <br />
               <strong>Jeudi & vendredi</strong> 17h ⇨ 23h
               <br />
-              <strong>Dimanche</strong> 12h ⇨ 17h
+              <strong>Dimanche</strong> 12h ⇨ 17h */}
+              <img src={IMAGE} />
               <br />
             </ul>
           </h5>

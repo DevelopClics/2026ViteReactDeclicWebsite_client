@@ -47,22 +47,29 @@ const MobileTavern = () => {
               </h5>
             </div>
             <div className="col-6 mx-auto col-md-4  text-middle text-light">
-              <Picture
-                classe="col-6 w-auto img-fluid"
+              {/* <Picture
+                classe="col-12 w-100 h-50 img-fluid"
                 pct={LogoGuinguette}
                 alt="Logo Bienvenue Service Conciergerie"
-              />
+              /> */}
 
-              {/* <img
+              <img
                 className="w-100 img-fluid"
                 src={LogoGuinguette}
                 alt="Logo Bienvenue Service Conciergerie"
-              /> */}
+              />
             </div>
-            <Picture
-              classe="col-12 mx-auto mt-5 w-100 w-md-75 img-fluid rounded-5"
+            {/* <Picture
+              classe="col-12 mx-auto mt-5 w-100 w-md-75 img-fluid rounded-5 position-background "
               pct={PctGM001}
               alt="Photo d'une Guinguette au quartier La Sablière"
+            /> */}
+            <div
+              className="col-12 mx-auto my-5 rounded-5 position-background"
+              style={{
+                backgroundImage: `url(${PctGM001})`,
+                height: "600px",
+              }}
             />
           </div>
 

@@ -5,7 +5,6 @@ import { FaSquareInstagram } from "react-icons/fa6";
 import FormContact from "../elements/formContact";
 import TimeTable from "../elements/TimeTable";
 
-
 import ResponsiveBanner from "../elements/ResponsiveBanner";
 
 import "../../App.css";
@@ -21,7 +20,8 @@ import TitleTwo from "../elements/Titles/TitleTwo";
 const Contact = () => {
   const { theme } = useContext(ThemeContext);
   const map77 =
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2843.2781517469907!2d4.680473376769629!3d44.55041077107373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b5145e5a5b7d85%3A0x6c6b24d29a8bafe8!2s77%20Rue%20de%20la%20R%C3%A9publique%2C%2007400%20Le%20Teil!5e0!3m2!1sfr!2sfr!4v1732023174678!5m2!1sfr!2sfr";
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2843.80835671574!2d4.680419590541392!3d44.539556396490156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b51462b77c53dd%3A0x6c24cfb26127f75e!2s30%20Av.%20Henri%20Barbusse%2C%2007400%20Le%20Teil!5e0!3m2!1sfr!2sfr!4v1779093402822!5m2!1sfr!2sfr";
+
   const mapLOL =
     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d625.3691072972101!2d4.686006357012637!3d44.55103119922754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b514f587cbb35d%3A0x7b0c63bfb20df57!2s6%20Rue%20du%2011%20Novembre%201918%2C%2007400%20Le%20Teil!5e0!3m2!1sfr!2sfr!4v1736411389389!5m2!1sfr!2sfr";
 
@@ -60,7 +60,8 @@ const Contact = () => {
                   <div className="pt-0 pt-lg-4 Texte1 text-start text-lg-end">
                     <h6>
                       <strong>
-                        77 Rue de la République <br />
+                        30 Avenue Henri Barbusse
+                        <br />
                         07400 Le Teil
                       </strong>
                       <br /> <br />

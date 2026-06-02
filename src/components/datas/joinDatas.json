@@ -16,5 +16,17 @@
     "image": "/images/clients/logo-arcade.png",
     "alt": "Logo Arc'ADE",
     "url": "https://www.arc-ade.fr/"
+  },
+  {
+    "id": 4,
+    "image": "/images/clients/logo-le-teil-villeurbanne-1.svg",
+    "alt": "Logo ADCT",
+    "url": "https://adct-asso.org/"
+  },
+  {
+    "id": 5,
+    "image": "/images/clients/Logo CES plein-1.jpg",
+    "alt": "Logo Emploi Solidaire",
+    "url": "https://www.entreprisesdinsertion.fr/"
   }
 ]

@@ -19,14 +19,20 @@ const AboutDedc = () => {
               return (
                 <div
                   key={item.id}
-                  className="col-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3  pt-lg-0 align-self-center"
+                  className="col-12 col-md-6 col-lg-3 col-xl-3 pt-lg-0 align-self-center"
                 >
                   <h5 className="mb-0">
                     <div
-                      className="Texte2   vertical text-center p-5 d-flex flex-column justify-content-center"
+                      className="Texte2 vertical text-center p-5 d-flex flex-column justify-content-center"
                       style={{ backgroundColor: item.backgroundcolor }}
                     >
-                      <strong>{capitalizeFirstLetter(item.verb)} </strong>
+                      <strong>
+                        {" "}
+                        {capitalizeFirstLetter(item.verb).replace(
+                          " !",
+                          "\u00A0!",
+                        )}{" "}
+                      </strong>
                     </div>
                   </h5>
                 </div>

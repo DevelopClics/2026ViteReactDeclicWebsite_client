@@ -1,5 +1,7 @@
 import React, { useContext } from "react";
 import { ThemeContext } from "../../../context/ThemeContext";
+import { FaFilePdf } from "react-icons/fa";
+
 import "./ServiceOffering.css";
 
 import TitleTwo from "../../elements/Titles/TitleTwo";
@@ -18,9 +20,12 @@ import pctAE01 from "../../../img/services/anniv-enfants/anniv-enfants_001.jpg";
 import pctAE02 from "../../../img/services/anniv-enfants/anniv-enfants_002.jpg";
 import PctTb001 from "../../../img/services/team-building/team-building-01.jpg";
 import PctTb002 from "../../../img/services/team-building/team-building-02.jpg";
+import BirthCard from "../../../img/services/anniv-enfants/anniv-enfants-affiche.png";
+import PdfAnim from "../../../img/services/animations-games/2026-animations-jeux-preview.jpg";
+
 import Picture from "../../elements/Picture";
 import Quote from "../../elements/Quote";
-import BtnContact from "../../elements/buttons/BtnContact";
+// import BtnContact from "../../elements/buttons/BtnContact";
 import CarteInfos from "../../elements/cards/CardInfos";
 // import TitleThree from "../../elements/Titles/TitleThree";
 
@@ -139,34 +144,94 @@ const AnimationsGames = () => {
           <div className="mb-3 mb-lg-4 col-12 col-xl-4"></div>
 
           <div className="col-12 col-sm-6 col-md-6 col-xl-4 pb-3">
-            <Picture classe="rounded-5 img-fluid" pct={pct01} alt="image01" />
+            <div style={{ height: "400px" }} className="w-100">
+              <Picture
+                classe="rounded-5 w-100 h-100"
+                pct={pct01}
+                alt="image01"
+              />
+            </div>
           </div>
           <div className="col-12 col-sm-6 col-md-6 col-xl-2 pb-3">
-            <Picture classe="rounded-5 img-fluid" pct={pct02} alt="image02" />
+            <div style={{ height: "400px" }} className="w-100">
+              <Picture
+                classe="rounded-5 w-100 h-100"
+                pct={pct02}
+                alt="image02"
+              />
+            </div>
           </div>
           <div className="col-12 col-sm-6 col-md-6 col-xl-2 pb-3">
-            <Picture classe="rounded-5 img-fluid" pct={pct03} alt="image03" />
+            <div style={{ height: "400px" }} className="w-100">
+              <Picture
+                classe="rounded-5 w-100 h-100"
+                pct={pct03}
+                alt="image03"
+              />
+            </div>
           </div>
           <div className="col-12 col-sm-6 col-md-6 col-xl-2 pb-3">
-            <Picture classe="rounded-5 img-fluid" pct={pct04} alt="image04" />
+            <div style={{ height: "400px" }} className="w-100">
+              <Picture
+                classe="rounded-5 w-100 h-100"
+                pct={pct04}
+                alt="image04"
+              />
+            </div>
           </div>
           <div className="col-12 col-sm-6 col-md-6 col-xl-2 pb-3">
-            <Picture classe="rounded-5 img-fluid" pct={pct05} alt="image05" />
+            <div style={{ height: "400px" }} className="w-100">
+              <Picture
+                classe="rounded-5 w-100 h-100"
+                pct={pct05}
+                alt="image05"
+              />
+            </div>
           </div>
           <div className="col-12 col-sm-6 col-md-6 col-xl-2 pb-3">
-            <Picture classe="rounded-5 img-fluid" pct={pct06} alt="image06" />
+            <div style={{ height: "400px" }} className="w-100">
+              <Picture
+                classe="rounded-5 w-100 h-100"
+                pct={pct06}
+                alt="image06"
+              />
+            </div>
           </div>
           <div className="col-12 col-sm-6 col-md-6 col-xl-2 pb-3">
-            <Picture classe="rounded-5 img-fluid" pct={pct07} alt="image07" />
+            <div style={{ height: "400px" }} className="w-100">
+              <Picture
+                classe="rounded-5 w-100 h-100"
+                pct={pct07}
+                alt="image07"
+              />
+            </div>
           </div>
           <div className="col-12 col-sm-6 col-md-6 col-xl-4 pb-3">
-            <Picture classe="rounded-5 img-fluid" pct={pct08} alt="image08" />
+            <div style={{ height: "400px" }} className="w-100">
+              <Picture
+                classe="rounded-5 w-100 h-100"
+                pct={pct08}
+                alt="image08"
+              />
+            </div>
           </div>
           <div className="col-12 col-sm-6 col-md-6 col-xl-2 pb-3">
-            <Picture classe="rounded-5 img-fluid" pct={pct09} alt="image09" />
+            <div style={{ height: "400px" }} className="w-100">
+              <Picture
+                classe="rounded-5 w-100 h-100"
+                pct={pct09}
+                alt="image09"
+              />
+            </div>
           </div>
           <div className="col-12 col-sm-6 col-md-6 col-xl-2 pb-3">
-            <Picture classe="rounded-5 img-fluid" pct={pct10} alt="image10" />
+            <div style={{ height: "400px" }} className="w-100">
+              <Picture
+                classe="rounded-5 w-100 h-100"
+                pct={pct10}
+                alt="image10"
+              />
+            </div>
           </div>
 
           <div className="mb-3 mb-lg-4 col-12 col-xl-8">
@@ -200,6 +265,30 @@ const AnimationsGames = () => {
             {/* <div style={{ color: "red" }}>
               En attente d’un témoignage de CLEFS - Floriane
             </div> */}
+            <div className="mt-3">
+              <a
+                href="https://www.calameo.com/read/007756043e1eabd13300d"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-50"
+              >
+                <button
+                  type="button"
+                  className={`btn btn-lg fw-bold w-50 
+                  ${
+                    theme
+                      ? `nav-style-black btn-outline-light`
+                      : `nav-style-white btn-outline-dark`
+                  }`}
+                >
+                  <FaFilePdf className="pdf-icon  mb-1" />
+                  Plaquette animation jeux
+                  <div>
+                    <img src={PdfAnim} alt="preview" className="img-fluid" />
+                  </div>
+                </button>
+              </a>
+            </div>
           </div>
           <div className="col-12 col-xl-6">
             <TitleTwo txt="Anniversaires enfants" />
@@ -212,18 +301,45 @@ const AnimationsGames = () => {
               Le LOL vous ouvre grand les portes pour souffler les bougies de
               vos enfants !
             </p>
+            <img
+              className="col-12 mb-4 mb-lg-0 col-lg-12 rounded-5"
+              src={BirthCard}
+              alt="Carte Anniversaire enfant"
+            ></img>
             <h5 className="pt-2 Texte1 text-start">
               Animateurs jeux dédiés, chasse au trésor, barbe à papa, boissons
               et crêpes, jeux de société, tables d’anniversaire, cartons
               d’invitations, le tout au LOL au cœur du Parc Laparel !
-              <br /> <br /> 10€ par enfant (en présence d’un adulte responsable
-              des enfants)
+              <br /> <br /> 12,5 € par enfant (en présence d’un adulte
+              responsable des enfants)
               {/* <br /> <br />
               <BtnContact />
               <br /> */}
             </h5>
 
             <div className="row">
+              <div className="col-12 col-lg-6 d-flex mb-3">
+                <div style={{ height: "300px" }} className="w-100">
+                  <Picture
+                    pct={pctAE01}
+                    classe="rounded-5 w-100 h-100"
+                    alt="Photo vue intérieure du LOL"
+                  />
+                </div>
+              </div>
+
+              <div className="col-12 col-lg-6 d-flex mb-3">
+                <div style={{ height: "300px" }} className="w-100">
+                  <Picture
+                    pct={pctAE02}
+                    classe="rounded-5 w-100 h-100"
+                    alt="Photo vue extérieure du LOL"
+                  />
+                </div>
+              </div>
+            </div>
+
+            {/* <div className="row">
               <Picture
                 classe="col-12 col-md-6 py-2 py-lg-3 img-fluid rounded-5"
                 pct={pctAE01}
@@ -234,7 +350,8 @@ const AnimationsGames = () => {
                 pct={pctAE02}
                 alt="Photo d'Olivier REY animant un groupe d'enfants"
               />
-            </div>
+            </div> */}
+
             <div className="col mt-2 text-center mx-auto">
               <CarteInfos
                 title="Plus d'informations"
@@ -253,8 +370,29 @@ const AnimationsGames = () => {
           <div className="col-12 col-xl-6">
             <TitleTwo txt="Journées de team-building" />
             <h5 className="pt-2 Texte1 text-start"></h5>
+
             <div className="row">
-              <Picture
+              <div className="col-12 col-lg-6 d-flex mb-3">
+                <div style={{ height: "400px" }} className="w-100">
+                  <Picture
+                    pct={PctTb001}
+                    classe="rounded-5 w-100 h-100"
+                    alt="Photo vue intérieure du LOL"
+                  />
+                </div>
+              </div>
+
+              <div className="col-12 col-lg-6 d-flex mb-3">
+                <div style={{ height: "400px" }} className="w-100">
+                  <Picture
+                    pct={PctTb002}
+                    classe="rounded-5 w-100 h-100"
+                    alt="Photo vue extérieure du LOL"
+                  />
+                </div>
+              </div>
+
+              {/* <Picture
                 classe="col-12 mb-3 mb-md-3 mb-lg-0 col-md-6 col-lg-4 mx-auto img-fluid rounded-5"
                 pct={PctTb001}
                 alt="Photo du Team Builduing"
@@ -263,8 +401,9 @@ const AnimationsGames = () => {
                 classe="col-12 col-lg-8 mx-auto   img-fluid rounded-5"
                 pct={PctTb002}
                 alt="Photo du Team Builduing"
-              />
+              /> */}
             </div>
+
             <div className="pt-3">
               <Quote
                 line1="Journée de cohésion :"

@@ -24,7 +24,7 @@ const About = () => {
       </div>
       <div id="national-experimention" className="pt-5 mb-5"></div>
 
-      <div id="titre1" className="container-fluid  ">
+      <div className="container-fluid titre-container">
         <div className="row pt-0">
           <div className="decal-left col text-start text-light">
             <TitleOne l1="Qui" l2="sommes nous ?" />
@@ -34,7 +34,7 @@ const About = () => {
       <AboutExperiment />
 
       <div id="tzcld" className="pt-5"></div>
-      <div id="titre1" className="container-fluid  ">
+      <div className="container-fluid titre-container">
         <div className="row pt-0">
           <div className=" col text-start text-light">
             <TitleOne l1="Territoire" l2="Zéro Chômeur" l3="de Longue Durée" />
@@ -45,7 +45,7 @@ const About = () => {
 
       {/* <div id="dedc" className="pt-5"></div> */}
       <div id="team" className="pt-5"></div>
-      <div id="titre1" className="container-fluid  ">
+      <div className="container-fluid titre-container">
         <div className="row pt-0">
           <div className="col text-start text-light">
             <TitleOne l1="L'équipe" l2="de Déclic" />

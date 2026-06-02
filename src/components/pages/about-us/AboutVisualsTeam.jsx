@@ -1,53 +1,58 @@
 import React, { useContext, useRef } from "react";
-import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
 import { ThemeContext } from "../../../context/ThemeContext";
 import VISUALS from "../../datas/visualsTeamDatas.json";
 import TitleTwo from "../../elements/Titles/TitleTwo";
+import Picture from "../../elements/Picture";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger, useGSAP);
 
 const AboutVisualsDedc = () => {
   const { theme } = useContext(ThemeContext);
-  gsap.registerPlugin(useGSAP); // register the hook to avoid React version discrepancies
+  const container = useRef();
 
-  const boxesRef = useRef([]);
-
-  useGSAP(() => {
-    boxesRef.current.forEach((img, index) => {
-      const speed = VISUALS[index].speed; // ← vitesse définie dans le JSON
-
-      gsap.fromTo(
-        img,
-        { opacity: 0.25 },
-        {
-          opacity: 1,
-          duration: speed, // ← chaque vitesse est unique
-          repeat: -1,
-          yoyo: true,
-          ease: "power3.inOut",
-        }
-      );
-    });
-  }, []);
+  useGSAP(
+    () => {
+      gsap.from(".team-member", {
+        opacity: 0,
+        y: 50,
+        stagger: {
+          amount: 1,
+          grid: "auto",
+          from: "start",
+        },
+        duration: 0.8,
+        ease: "back.out(1.7)",
+        scrollTrigger: {
+          trigger: container.current,
+          start: "top 85%",
+          toggleActions: "play none none none",
+        },
+      });
+    },
+    { scope: container }
+  );
 
   return (
     <>
-      <div className="container-fluid pt-5 px-0 px-lg-5 rounded-1">
-        <div className="text-dark">
-          <TitleTwo txt='Portrait de " Dream Team "' />
+      <div ref={container} className="container-fluid pt-5 px-0 px-lg-5 rounded-1">
+        <div className={theme ? "text-light" : "text-dark"}>
+          <TitleTwo txt='Portrait de la " Dream Team "' />
 
           <div className="row gx-0">
-            {VISUALS.map((item, index) => (
+            {VISUALS.map((item) => (
               <div
                 key={item.id}
-                className="col-12 col-md-6 col-lg-4 col-xl-2 col-xxl-2 px-0 align-self-center"
+                className="team-member col-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1 px-0 align-self-center"
               >
                 <h5 className="mt-0 mb-0">
-                  <img
-                    ref={(el) => (boxesRef.current[index] = el)}
-                    className="img-fluid"
-                    src={item.image}
+                  <Picture
+                    classe="img-fluid"
+                    pct={item.image}
                     alt={item.alt}
-                    style={{ objectFit: "contain" }}
+                    speed={item.speed}
                   />
                 </h5>
               </div>

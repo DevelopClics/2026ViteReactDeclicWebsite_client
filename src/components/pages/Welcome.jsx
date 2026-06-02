@@ -1,7 +1,9 @@
 import React, { useContext, useState, useRef } from "react";
 import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+// import { useGSAP } from "@gsap/react";
+import { useScrollAnimations } from "../../hooks/useScrollAnimations.jsx";
+
+// import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 import { v4 as uuidv4 } from "uuid";
 import { ThemeContext } from "../../context/ThemeContext";
@@ -29,48 +31,64 @@ import CarteInfos from "../elements/cards/CardInfos.jsx";
 // import { Button } from "react-bootstrap";
 // import { Link } from "react-router-dom";
 
+// gsap.registerPlugin(useGSAP, ScrollTrigger);
+
 const Welcome = () => {
-  gsap.registerPlugin(useGSAP); // register the hook to avoid React version discrepancies
-
-  const boxRef = useRef(null);
-
-  useGSAP(() => {
-    gsap.from(boxRef.current, {
-      y: -720,
-      duration: 0.5,
-      ease: "power3.in",
-    });
-  }, {});
-
+  const containerRef = useRef(null);
   const textRef = useRef(null);
-
-  useGSAP(() => {
-    gsap.from(textRef.current, {
-      y: -400,
-      duration: 1,
-      ease: "power3.in",
-    });
-  }, {});
-
-  gsap.registerPlugin(ScrollTrigger);
   const serviceRef = useRef(null);
+  const datesRef = useRef(null);
+  const strengthsRef = useRef(null);
+  const numbersRef = useRef(null);
+  useScrollAnimations(containerRef);
 
-  useGSAP(
-    () => {
-      gsap.from(serviceRef.current, {
-        y: -400,
-        duration: 2,
-        ease: "power1.in",
-        scrollTrigger: {
-          trigger: serviceRef.current,
-          start: "top bottom",
-          end: "top top",
-          scrub: false,
-        },
-      });
-    },
-    { scope: serviceRef } // ⭐ important when using useGSAP
-  );
+  //  useGSAP(
+  //     () => {
+  //       // Left block animation (Qui sommes-nous ?)
+  //       gsap.from(".decal-left", {
+  //         opacity: 0,
+  //         x: -500,
+  //         scale: 2,
+  //         duration: 0.6,
+  //         ease: "power3.out",
+  //         scrollTrigger: {
+  //           trigger: ".decal-left",
+  //           start: "top 50%",
+  //           once: true,
+  //         },
+  //       });
+
+  //       // Right block animation (Nos spécialités)
+  //       gsap.from(".decal-right", {
+  //         opacity: 0,
+  //         x: 500,
+  //         scale: 2,
+  //         duration: 0.6,
+  //         ease: "power3.out",
+  //         scrollTrigger: {
+  //           trigger: ".decal-right",
+  //           start: "top 50%",
+  //           once: true,
+  //         },
+  //       });
+
+  //       // Scale-down animations for bottom sections
+  //       gsap.utils.toArray(".zoom-section").forEach((section) => {
+  //         gsap.from(section, {
+  //           opacity: 0,
+  //           scale: 1.5,
+  //           duration: 0.6,
+  //           ease: "power2.out",
+  //           scrollTrigger: {
+  //             trigger: section,
+  //             start: "top 50%",
+  //             once: true,
+  //           },
+  //         });
+  //       });
+  //     },
+  //     { scope: containerRef },
+  //   );
 
   const { theme } = useContext(ThemeContext);
   const [ourServices] = useState([
@@ -197,9 +215,7 @@ const Welcome = () => {
 
   return (
     <>
-      <div
-      // ref={boxRef}
-      >
+      <div ref={containerRef}>
         <span id="banner"> </span>
         <div className="pt-0" id="home"></div>
 
@@ -217,18 +233,11 @@ const Welcome = () => {
 
         <div id="titre1" className="container-fluid">
           <div className="pt-0">
-            {/* <div className="text-start text-light">
-            <TitleOne l1="Déclic" l2="et des Claps" />
-          </div> */}
-
-            <div
-              // ref={textRef}
-              className="mt-0 text-center text-light"
-            >
+            <div ref={textRef} className="mt-0 text-center text-light">
               <div className="row">
                 <div
                   // style={{ marginTop: "15vh" }}
-                  className="decal-left order-1  col-md-12 align-self-start  col-xl-6"
+                  className="welcome-text-section decal-left order-1  col-md-12 align-self-start  col-xl-6"
                 >
                   <TitleTwo txt="Qui sommes-nous ?" />
                   <h3
@@ -244,7 +253,7 @@ const Welcome = () => {
                   </h3>
                 </div>
 
-                <div className="decal-right order-3  col-md-12 align-self-start  col-xl-6">
+                <div className="welcome-text-section decal-right order-3  col-md-12 align-self-start  col-xl-6">
                   <TitleTwo txt="Nos spécialités" />
                   <h3
                     className={`pt-2 Texte1 text-center px-lg-4     
@@ -269,10 +278,7 @@ const Welcome = () => {
             ${theme ? `text-light` : `text-dark`}`}
             >
               {/* Service */}
-              <div
-                // ref={serviceRef}
-                className="mt-5 col-12"
-              >
+              <div ref={serviceRef} className="zoom-section mt-5 col-12">
                 <div>
                   <TitleTwo txt="Nos offres de service" />
                 </div>
@@ -294,7 +300,7 @@ const Welcome = () => {
               </div>
               {/* Fin service */}
               {/* Rendez-vous */}
-              <div className="col-12">
+              <div ref={datesRef} className="zoom-section col-12">
                 <TitleTwo txt="Nos prochains rendez-vous" />
 
                 <div className="row align-items-justify justify-content-center">
@@ -321,7 +327,7 @@ const Welcome = () => {
               </div>
               {/* fin Rendez-vous */}
               {/* DEDC c'est aussi */}
-              <div className="col-12 mt-5">
+              <div ref={strengthsRef} className="zoom-section col-12 mt-5">
                 <TitleTwo txt="Déclic et des Claps c'est aussi…" />
                 <div className="mt-3 mx-0">
                   <div className="row align-items-justify justify-content-center">
@@ -342,7 +348,7 @@ const Welcome = () => {
               {/* Fin DEDC c'est aussi */}
 
               {/* DEDC en chiffres */}
-              <div className="col-12 mt-5">
+              <div ref={numbersRef} className="zoom-section col-12 mt-5">
                 <TitleTwo txt="Déclic et des Claps en quelques chiffres" />
                 <div className="row  align-items-justify justify-content-center">
                   {someNumbers.map((someNumber) => {

@@ -53,7 +53,7 @@ const CarteRdvHoriz = ({
                     <strong>{title}</strong>
                   </h1>
                   <h3>
-                    Au <strong>{place}</strong> le {day}{" "}
+                    <strong>{place}</strong> le {day}{" "}
                     <strong>
                       {date} {hours}
                     </strong>

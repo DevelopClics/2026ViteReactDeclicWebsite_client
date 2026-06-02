@@ -5,7 +5,6 @@ import EventSchedule from "./EventSchedule";
 // import TalkAbout from "./TalkAbout";
 import news from "/images/bannieres/visuel-actus.jpg";
 
-
 import ResponsiveBanner from "../../elements/ResponsiveBanner";
 
 import "../../../App.css";

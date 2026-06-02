@@ -7,7 +7,7 @@ import CarteInfos from "../../elements/cards/CardInfos";
 import CONCIERGE from "../../datas/conciergeDatas.json";
 import Picture from "../../elements/Picture";
 import Quote from "../../elements/Quote";
-import { Button } from "react-bootstrap";
+// import { Button } from "react-bootstrap";
 
 const Concierge = () => {
   const { theme } = useContext(ThemeContext);
@@ -54,7 +54,7 @@ const Concierge = () => {
 
             <div className="order-1 order-md-2 col-12 col-md-4 text-middle text-light">
               <Picture
-                classe="w-75"
+                classe="w-100"
                 pct={LogoBienvenue}
                 alt="Logo Bienvenue Service Conciergerie"
               />
@@ -62,7 +62,7 @@ const Concierge = () => {
           </div>
         </div>
 
-        <div className="mt-1 mt-lg-5 row align-items-justify justify-content-around">
+        <div className="mt-1 mt-lg-5 row align-items-justify justify-content-center">
           {CONCIERGE.map((item) => {
             return (
               <CarteConcierge

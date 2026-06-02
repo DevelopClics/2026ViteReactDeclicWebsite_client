@@ -65,6 +65,23 @@ const Distribution = () => {
           </div>
 
           <div className="row">
+            <div className="col-12 col-lg-6 d-flex">
+              <Picture
+                pct={pctDiffEvt01}
+                classe="rounded-5 w-100 h-100"
+                alt="Photo vue intérieure du LOL"
+              />
+            </div>
+
+            <div className="col-12 col-lg-6 d-flex">
+              <Picture
+                pct={pctDiffEvt02}
+                classe="rounded-5 w-100 h-100"
+                alt="Photo vue extérieure du LOL"
+              />
+            </div>
+            {/* 
+          <div className="row">
             <Picture
               classe="col-12 pb-3 pb-md-0 col-md-6 rounded-5 img-fluid"
               pct={pctDiffEvt01}
@@ -74,7 +91,7 @@ const Distribution = () => {
               classe="col-12 col-md-6  rounded-5 img-fluid"
               pct={pctDiffEvt02}
               alt="Photo affichage"
-            />
+            /> */}
             <div className="text-center">
               <TitleTwo txt="Témoignage" />
               <div className="row">

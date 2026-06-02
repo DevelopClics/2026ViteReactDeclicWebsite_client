@@ -17,7 +17,7 @@ import TitleOne from "../../elements/Titles/TitleOne";
 const Offerings = () => {
   const { theme } = useContext(ThemeContext);
   return (
-    <>
+    <div>
       <div id="banner"></div>
       <div>
         {/* <img
@@ -34,19 +34,25 @@ const Offerings = () => {
           bannerXS="/images/bannieres/visuel-offre-de-service-xs.jpg"
         />
       </div>
-      <div id="lol" className="decal-left pt-5 mb-5"></div>
-      <div id="titre1" className="container-fluid  ">
+
+      <div
+        id="lol"
+        className="container-fluid titre-container pt-1 mb-5"
+        style={{ scrollMarginTop: "150px" }}
+      >
         <div className="pt-0">
           <div className=" col text-start text-light">
-            <TitleOne l1="Le Bar à Jeux" l2="Le LOL" />
+            <TitleOne l1="Le bar à jeux" l2="Le LOL" />
           </div>
         </div>
       </div>
       <GameBar />
 
-      {/* <div id="animations" className="pt-5"></div> */}
-      <div id="animations" className="pt-5 mb-5"></div>
-      <div id="titre1" className="container-fluid  ">
+      <div
+        id="animations"
+        className="container-fluid titre-container pt-1 mb-5"
+        style={{ scrollMarginTop: "150px" }}
+      >
         <div className="pt-0">
           <div className=" col text-start text-light">
             <TitleOne l1="Les animations" l2="jeux" />
@@ -55,8 +61,11 @@ const Offerings = () => {
       </div>
       <AnimationsGames />
 
-      <div id="bienvenue" className="pt-5 mb-5"></div>
-      <div id="titre1" className="container-fluid  ">
+      <div
+        id="bienvenue"
+        className="container-fluid titre-container pt-1 mb-5"
+        style={{ scrollMarginTop: "150px" }}
+      >
         <div className="pt-0">
           <div className=" col text-start text-light">
             <TitleOne l1="La conciergerie" l2="de gîtes saisonniers" />
@@ -65,9 +74,11 @@ const Offerings = () => {
       </div>
       <Concierge />
 
-      <div id="location" className="pt-5 mb-5"></div>
-
-      <div id="titre1" className="container-fluid  ">
+      <div
+        id="location"
+        className="container-fluid titre-container pt-1 mb-5"
+        style={{ scrollMarginTop: "150px" }}
+      >
         <div className="pt-0">
           <div className=" col text-start text-light">
             <TitleOne
@@ -79,8 +90,12 @@ const Offerings = () => {
         </div>
       </div>
       <Loc />
-      <div id="event-logistics" className="pt-5 mb-5"></div>
-      <div id="titre1" className="container-fluid  ">
+
+      <div
+        id="event-logistics"
+        className="container-fluid titre-container pt-1 mb-5"
+        style={{ scrollMarginTop: "150px" }}
+      >
         <div className="pt-0">
           <div className=" col text-start text-light">
             <TitleOne l1="La logistique" l2="évènementielle" l3="" />
@@ -89,8 +104,11 @@ const Offerings = () => {
       </div>
       <EventLogistics />
 
-      <div id="distribution" className="pt-5 mb-5"></div>
-      <div id="titre1" className="container-fluid  ">
+      <div
+        id="distribution"
+        className="container-fluid titre-container pt-1 mb-5"
+        style={{ scrollMarginTop: "150px" }}
+      >
         <div className="pt-0">
           <div className=" col text-start text-light">
             <TitleOne l1="La diffusion" l2="de flyers et d'affiches" />
@@ -99,8 +117,11 @@ const Offerings = () => {
       </div>
       <Distribution />
 
-      <div id="mobile-tavern" className="pt-5 mb-5"></div>
-      <div id="titre1" className="container-fluid  ">
+      <div
+        id="mobile-tavern"
+        className="container-fluid titre-container pt-1 mb-5"
+        style={{ scrollMarginTop: "150px" }}
+      >
         <div className="pt-0">
           <div className=" col text-start text-light">
             <TitleOne l1="La guinguette" l2="mobile" />
@@ -109,18 +130,20 @@ const Offerings = () => {
       </div>
       <MobileTavern />
 
-      <div id="after-school-workshops" className="pt-5 mb-5"></div>
-      <div id="titre1" className="container-fluid  ">
+      <div
+        id="after-school-workshops"
+        className="container-fluid titre-container pt-1 mb-5"
+        style={{ scrollMarginTop: "150px" }}
+      >
         <div className="pt-0">
           <div className="col text-start text-light">
-            <TitleOne l1="Les Ateliers" l2="périscolaires" />
+            <TitleOne l1="Les ateliers" l2="périscolaires" />
           </div>
         </div>
       </div>
       <AfterschoolWorkshops />
-
       <div className="mb-5 pb-5"></div>
-    </>
+    </div>
   );
 };
 

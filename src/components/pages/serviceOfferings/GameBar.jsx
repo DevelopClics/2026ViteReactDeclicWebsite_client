@@ -10,7 +10,7 @@ import Picture from "../../elements/Picture";
 import px from "../../../img/px.svg";
 import PhotoLOLext from "../../../img/lol/visuel-ext-lol.webp";
 import PhotoLOLint from "../../../img/lol/visuel-int-lol.jpeg";
-import PhotoLOLint2 from "../../../img/lol/visuel-int-lol2.jpg";
+// import PhotoLOLint2 from "../../../img/lol/visuel-int-lol2.jpg";
 import TitleTwo from "../../elements/Titles/TitleTwo";
 // import { BsReverseBackspaceReverse } from "react-icons/bs";
 import Quote from "../../elements/Quote";
@@ -112,22 +112,27 @@ const GameBar = () => {
 
         <div className="container">
           <div className="row">
-            <Picture
-              classe="col-12 mb-4 mb-lg-0 col-lg-6 rounded-5"
-              pct={PhotoLOLint}
-              alt="Photo vue intérieure du LOL"
-            />
-            <Picture
-              classe=" col-12 col-lg-6 rounded-5"
-              pct={PhotoLOLext}
-              alt="Photo vue extérieure du LOL"
-            />
-            {/* <Picture
-              classe="col-12 my-4 my-lg-0 col-lg-2 rounded-5 "
-              pct={PhotoLOLint2}
-              alt="Photo vue intérieure du LOL"
-            /> */}
+            <div className="col-12 col-md-6 mb-4">
+              <div style={{ height: "400px" }} className="w-100">
+                <Picture
+                  pct={PhotoLOLint}
+                  classe="rounded-5 w-100 h-100"
+                  alt="Photo vue intérieure du LOL"
+                />
+              </div>
+            </div>
+
+            <div className="col-12 col-md-6 mb-4">
+              <div style={{ height: "400px" }} className="w-100">
+                <Picture
+                  pct={PhotoLOLext}
+                  classe="rounded-5 w-100 h-100"
+                  alt="Photo vue extérieure du LOL"
+                />
+              </div>
+            </div>
           </div>
+
           <div className="row">
             <div className="col-12 col-md-6">
               <Map

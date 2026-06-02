@@ -19,7 +19,7 @@
   },
   {
     "id": 4,
-    "image": "/images/Préfète_de_l'Ardèche.svg",
+    "image": "/images/Préfet_de_l'Ardèche.svg",
     "alt": "Logo Préfète de l'Ardèche",
     "url": "https://www.ardeche.gouv.fr/"
   },
@@ -52,5 +52,11 @@
     "image": "/images/logos/cropped-Logo_Horizontal_Couleur.png",
     "alt": "Logo La poule rousse",
     "url": "https://lapoulerousse.org/"
+  },
+  {
+    "id": 10,
+    "image": "/images/logos/Logo-fondation-Truffaut.png",
+    "alt": "Logo fondation Truffaut",
+    "url": "https://www.fondation-georges-truffaut.org/"
   }
 ]

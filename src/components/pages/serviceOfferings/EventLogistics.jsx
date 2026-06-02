@@ -113,10 +113,16 @@ const EventLogistics = () => {
             </div>
             <div className="col-12 mt-md-5 col-md-6">
               <Picture
+                classe="w-100 h-100 rounded-5"
+                pct={pctEventLog02}
+                alt="Logo Bienvenue Service Conciergerie"
+              />
+
+              {/* <Picture
                 classe="col-12 col-md-12 mt-md-5 rounded-5 img-fluid"
                 pct={pctEventLog02}
                 alt="Photo affichage"
-              />
+              /> */}
             </div>
 
             {/* <div className="col-12 col-md-6">

@@ -18,6 +18,22 @@ const Navigation = () => {
 
   const handleNavClose = () => setExpanded(false);
 
+  const scrollWithOffset = (el) => {
+    const yOffset = -100; // Standard offset to account for navbar height
+    const scroll = () => {
+      const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({ top: y, behavior: "smooth" });
+    };
+
+    // Initial scroll
+    scroll();
+
+    // Multiple delayed calls to catch layout shifts from loading images
+    setTimeout(scroll, 300);
+    setTimeout(scroll, 800);
+    setTimeout(scroll, 1500);
+  };
+
   const navLinks = [
     {
       title: "Accueil",
@@ -94,7 +110,7 @@ const Navigation = () => {
   ];
 
   const [dropdownShows, setDropdownShows] = useState(
-    Array(navLinks.length).fill(false)
+    Array(navLinks.length).fill(false),
   );
 
   const handleDropdownShow = (index, show) => {
@@ -146,18 +162,18 @@ const Navigation = () => {
                     onToggle={(isOpen) => handleDropdownShow(index, isOpen)}
                     onMouseEnter={() => handleDropdownShow(index, true)}
                     onMouseLeave={() => handleDropdownShow(index, false)}
-                    className={`me-3 border border-warning rounded-2 text-lg-center text-start`}
+                    className={`me-3 d-flex align-items-center border border-warning rounded-2 text-lg-center text-start`}
                   >
-                    <Button className="mt-1" variant="transparent">
-                      <Link
-                        onClick={handleNavClose}
-                        className={`nav-style ${
-                          theme ? `nav-style-light` : `nav-style-dark`
-                        }`}
-                        to={navLink.to}
-                      >
-                        {navLink.title}
-                      </Link>
+                    <Button
+                      as={Link}
+                      onClick={handleNavClose}
+                      className={`btn-transparent border-0 nav-style ${
+                        theme ? `nav-style-light` : `nav-style-dark`
+                      }`}
+                      to={navLink.to}
+                      scroll={scrollWithOffset}
+                    >
+                      {navLink.title}
                     </Button>
                     <Dropdown.Toggle
                       split
@@ -175,6 +191,7 @@ const Navigation = () => {
                             onClick={handleNavClose}
                             as={Link}
                             to={subLink.to}
+                            scroll={scrollWithOffset}
                             className={`nav-style ${
                               theme ? `nav-style-light` : `nav-style-dark`
                             }`}
@@ -196,19 +213,16 @@ const Navigation = () => {
               }
               return (
                 <Button
+                  as={Link}
                   key={index}
-                  variant="transparent"
-                  className="me-3 border border-warning text-lg-center text-start"
+                  className={`me-3 d-flex align-items-center justify-content-center border border-warning text-lg-center text-start btn-transparent nav-style ${
+                    theme ? `nav-style-light` : `nav-style-dark`
+                  }`}
+                  to={navLink.to}
+                  scroll={scrollWithOffset}
+                  onClick={handleNavClose}
                 >
-                  <Link
-                    onClick={handleNavClose}
-                    className={`nav-style ${
-                      theme ? `nav-style-light` : `nav-style-dark`
-                    }`}
-                    to={navLink.to}
-                  >
-                    {navLink.title}
-                  </Link>
+                  {navLink.title}
                 </Button>
               );
             })}

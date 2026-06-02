@@ -1,51 +1,84 @@
 [
   {
     "id": 1,
+    "image": "/images/clients/Logo-Aven-Orgnac.png",
+    "alt": "Logo Aven d'Orgnac",
+    "url": "https://www.orgnac.com/"
+  },
+  {
+    "id": 2,
     "image": "/images/clients/logo-chauvet2.png",
     "alt": "Logo Grotte Chauvet 2",
     "url": "https://www.grottechauvet2ardeche.com/"
   },
 
   {
-    "id": 2,
+    "id": 3,
     "image": "/images/clients/LOGO_SMAC07LABELS.png",
     "alt": "Logo SMAC 07",
     "url": "https://www.smac07.com/"
   },
+
   {
-    "id": 3,
+    "id": 4,
+    "image": "/images/clients/logo-tdp-2025-w-label.svg",
+    "alt": "Logo Théatre de Privas",
+    "url": "https://www.theatredeprivas.com/"
+  },
+
+  {
+    "id": 5,
+    "image": "/images/clients/LACASCADE_logo.svg",
+    "alt": "Logo La Cascades",
+    "url": "https://lacascade.org/"
+  },
+
+  {
+    "id": 6,
     "image": "/images/clients/Logo-Radio-Micheline.png",
     "alt": "Logo Radio Micheline",
     "url": "https://www.radiomicheline.com/"
   },
   {
-    "id": 4,
+    "id": 7,
+    "image": "/images/clients/Logo_Château-verchaüs.svg",
+    "alt": "Logo Château Verchaüs",
+    "url": "https://www.chateaudeverchaus.com/"
+  },
+  {
+    "id": 10,
     "image": "/images/clients/logo-PP.png",
     "alt": "Logo Présence(s) photographie",
     "url": "https://www.presences-photographie.fr/page/2929251-accueil"
   },
   {
-    "id": 5,
+    "id": 20,
     "image": "/images/clients/LOGO_Le_TiLT_baseline_x2_BLEU_RVB.png",
     "alt": "Logo Le TiLT",
     "url": "https://www.le-tilt.com/"
   },
   {
-    "id": 6,
+    "id": 30,
     "image": "/images/clients/logo-les-clefs.svg",
     "alt": "Logo Les CLEFS,",
     "url": "https://www.lesclefs-csc.fr/"
   },
   {
-    "id": 7,
+    "id": 40,
     "image": "/images/clients/logo-secours-pop.png",
     "alt": "Logo secours populaire",
     "url": "https://www.secourspopulaire.fr/07-le-teil/"
   },
   {
-    "id": 8,
+    "id": 50,
     "image": "/images/clients/logo-jazz-sur-un-plateau.png",
     "alt": "Logo jazz sur un plateau",
     "url": "https://www.jazz-sur-un-plateau-larnas.fr/"
+  },
+  {
+    "id": 60,
+    "image": "/images/clients/logo-assofital.png",
+    "alt": "Logo Assofital",
+    "url": "https://www.assofital.fr/fr/"
   }
 ]

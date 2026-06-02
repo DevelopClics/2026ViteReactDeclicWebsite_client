@@ -24,19 +24,50 @@
     "alt": "Logo Département de l'Ardèche",
     "url": "https://www.ardeche.fr/"
   },
-
   {
-    "id": 50,
-    "image": "/images/clients/Logo_CCAS.svg",
-    "alt": "Logo CCAS du Teil",
-    "url": "https://www.mairie-le-teil.fr/vie-quotidienne/sante/accompagnement-social-ccas/"
+    "id": 41,
+    "image": "/images/clients/Logo_Intercom_Val-de-Drôme.svg",
+    "alt": "Logo Intercommunalité de Val de Drôme en Biovallée",
+    "url": "https://www.valdedrome.com/6166-l-intercommunalite-du-val-de-drome.htm"
   },
   {
-    "id": 60,
+    "id": 42,
     "image": "/images/clients/logo-draga.png",
     "alt": "Logo CC DRAGA",
     "url": "https://www.ccdraga.fr/"
   },
+  {
+    "id": 44,
+    "image": "/images/clients/L-VDB_S.svg",
+    "alt": "Logo Mairie de Villeneuve de Berg",
+    "url": "https://www.villeneuvedeberg.fr/"
+  },
+  {
+    "id": 45,
+    "image": "/images/clients/Mairie-Meysse.png",
+    "alt": "Logo Mairie de Meysse",
+    "url": "https://www.meysse.fr/fr/"
+  },
+  {
+    "id": 46,
+    "image": "/images/clients/logo-mairie-viviers.png",
+    "alt": "Logo Mairie de Viviers",
+    "url": "https://www.mairie-viviers.fr/"
+  },
+  {
+    "id": 50,
+    "image": "/images/clients/laven-orgnac-logo.png",
+    "alt": "Logo Mairie de l'Aven d'Orgnac",
+    "url": "https://www.orgnacvillage.com/"
+  },
+
+  {
+    "id": 65,
+    "image": "/images/clients/Logo_CCAS.svg",
+    "alt": "Logo CCAS du Teil",
+    "url": "https://www.mairie-le-teil.fr/vie-quotidienne/sante/accompagnement-social-ccas/"
+  },
+
   {
     "id": 70,
     "image": "/images/clients/logo-comité-de-jumelage.png",
@@ -57,6 +88,12 @@
     "alt": "Logo Grotte Chauvet 2",
     "url": "https://www.grottechauvet2ardeche.com/"
   },
+  {
+    "id": 95,
+    "image": "/images/clients/ARTZ&CO.png",
+    "alt": "Logo ARTZ&CO",
+    "url": "https://www.facebook.com/artzandco.events/"
+  },
 
   {
     "id": 100,
@@ -71,10 +108,22 @@
     "url": "https://www.smac07.com/"
   },
   {
+    "id": 115,
+    "image": "/images/clients/Logo_mett.svg",
+    "alt": "Logo le mett",
+    "url": "https://www.le-mett.fr/"
+  },
+  {
     "id": 120,
     "image": "/images/clients/LACASCADE_logo.svg",
     "alt": "Logo La Cascade",
     "url": "https://lacascade.org/"
+  },
+  {
+    "id": 121,
+    "image": "/images/clients/Logo_Les-Rois-Vagabonds.svg",
+    "alt": "Logo Les Rois Vagabonds",
+    "url": "https://www.lesroisvagabonds.com/"
   },
   {
     "id": 130,
@@ -108,6 +157,14 @@
     "alt": "Logo Bistro du Regain",
     "url": "https://www.facebook.com/BistroduRegain/?locale=fr_FR"
   },
+
+  {
+    "id": 175,
+    "image": "/images/clients/logo-assofital.png",
+    "alt": "Logo Assofital",
+    "url": "https://www.assofital.fr/fr/"
+  },
+
   {
     "id": 180,
     "image": "/images/clients/logo-pomme-cannelle.png",
@@ -143,6 +200,12 @@
   {
     "id": 230,
     "image": "/images/clients/LOGO_Le_TiLT_baseline_x2_BLEU_RVB.png",
+    "alt": "Logo Tempo Soleil",
+    "url": "https://www.facebook.com/p/Tempo-Soleil-100063627188366/"
+  },
+  {
+    "id": 235,
+    "image": "/images/clients/Tempo-Soleil.png",
     "alt": "Logo Le TiLT",
     "url": "https://www.le-tilt.com/"
   },
@@ -165,10 +228,28 @@
     "url": "https://www.facebook.com/turlupinades/?locale=fr_FR"
   },
   {
+    "id": 265,
+    "image": "/images/clients/Tour-de-Crest.png",
+    "alt": "Logo Tour de Crest",
+    "url": "https://www.tourdecrest.fr/"
+  },
+  {
     "id": 270,
     "image": "/images/clients/logo-alpev.svg",
     "alt": "Logo ALPEV de Viviers",
     "url": "https://static.mairie-viviers.fr/media/documents/alpev-espace-vie-sociale-16-17.pdf"
+  },
+  {
+    "id": 275,
+    "image": "/images/clients/Medrose-logo.png",
+    "alt": "Logo Medrose camping",
+    "url": "https://www.medrosecampingardeche.fr/#1"
+  },
+  {
+    "id": 277,
+    "image": "/images/clients/Logo_eywa.svg",
+    "alt": "Logo Passeraile d'EYWA",
+    "url": "https://www.domaine-eywa.com/"
   },
   {
     "id": 280,
@@ -198,6 +279,12 @@
     "url": "https://www.adapei07.fr/"
   },
   {
+    "id": 315,
+    "image": "/images/clients/alec-07.png",
+    "alt": "Logo Alec 07",
+    "url": "https://www.alec07.org/"
+  },
+  {
     "id": 320,
     "image": "/images/clients/logo-gaia-eam-noisy-le-grand.svg",
     "alt": "Logo Gaia",
@@ -211,6 +298,18 @@
     "url": "https://leszazas.org/"
   },
   {
+    "id": 335,
+    "image": "/images/clients/Logo_MFR.png",
+    "alt": "Logo MFR",
+    "url": "https://www.mfrardeche.fr/"
+  },
+  {
+    "id": 338,
+    "image": "/images/clients/logo-AAD07.svg",
+    "alt": "Logo AAD",
+    "url": "https://www.aad07.fr/"
+  },
+  {
     "id": 340,
     "image": "/images/clients/logo-les-peupliers.png",
     "alt": "Logo Les Peupliers",
@@ -221,6 +320,18 @@
     "image": "/images/clients/logo-foyer-avon.png",
     "alt": "Logo Foyer Alice Avon",
     "url": "https://foyeraliceavon07.jimdofree.com/"
+  },
+  {
+    "id": 355,
+    "image": "/images/clients/Comité-des-fêtes-St-Priest.jpg",
+    "alt": "Logo Comité des fêtes Ste Anne St Priest",
+    "url": "https://www.facebook.com/p/Comit%C3%A9-des-f%C3%AAtes-de-Ste-Anne-St-Priest-61569189809968/"
+  },
+  {
+    "id": 357,
+    "image": "/images/clients/La-petite-ourse.png",
+    "alt": "Logo La Petite Ourse",
+    "url": "https://www.saint-montan.fr/La-Petite-Ourse"
   },
 
   {
@@ -253,5 +364,11 @@
     "image": "/images/clients/logo-ALRP.svg",
     "alt": "Logo Amicale laïque de l’école de Rosa Parks",
     "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/amicale-laique-rosa-parks-923528269"
+  },
+  {
+    "id": 410,
+    "image": "/images/clients/logo-pluriels.jpg",
+    "alt": "Logo Association Pluriels",
+    "url": "https://www.assopluriels.fr/"
   }
 ]

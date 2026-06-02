@@ -14,7 +14,9 @@ li,
 footer,
 header,
 nav {
-  transition: background-color 0.4s ease, color 0.4s ease;
+  transition:
+    background-color 0.4s ease,
+    color 0.4s ease;
 }
 
 .App {
@@ -27,25 +29,33 @@ nav {
 
 @font-face {
   font-family: "Black"; /*Can be any text*/
-  src: local("Mulish-Black"), url("./fonts/Mulish-Black.ttf") format("truetype");
+  src:
+    local("Mulish-Black"),
+    url("./fonts/Mulish-Black.ttf") format("truetype");
 }
 @font-face {
   font-family: "Italic"; /*Can be any text*/
-  src: local("Mulish-BlackItalic"),
+  src:
+    local("Mulish-BlackItalic"),
     url("./fonts/Mulish-BlackItalic.ttf") format("truetype");
 }
 @font-face {
   font-family: "Bold"; /*Can be any text*/
-  src: local("Mulish-Bold"), url("./fonts/Mulish-Bold.ttf") format("truetype");
+  src:
+    local("Mulish-Bold"),
+    url("./fonts/Mulish-Bold.ttf") format("truetype");
 }
 @font-face {
   font-family: "Regular"; /*Can be any text*/
-  src: local("Mulish-Regular"),
+  src:
+    local("Mulish-Regular"),
     url("./fonts/Mulish-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Light"; /*Can be any text*/
-  src: local("Mulish-Light"), url("./fonts/Mulish-Light.ttf") format("truetype");
+  src:
+    local("Mulish-Light"),
+    url("./fonts/Mulish-Light.ttf") format("truetype");
 }
 
 .quote-text {
@@ -225,21 +235,54 @@ nav {
     transform: rotate(360deg);
   } */
 .Banner {
-  width: 100% !important;
-  height: 100% !important;
-  object-fit: cover !important;
-  position: absolute;
-  top: 0;
-  left: 0;
+  display: none;
 }
 
 .banner-frame {
   width: 100vw !important;
-  height: 80vh !important;
+  height: 70vh !important;
   position: relative;
-  background-color: #cccccc; /* Gray color for the frame */
-  clip-path: polygon(100% 0%, 100% 85%, 50% 100%, 0 85%, 0 0);
-  transition: opacity 0.1s ease-in-out; /* Transition for the frame */
+  background-color: #cccccc;
+  /* background-attachment: fixed; */
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  clip-path: polygon(100% 0%, 100% 85%, 50% 95%, 0 80%, 0 0);
+  transition: opacity 0.5s ease-in-out;
+}
+
+.banner-frame::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  clip-path: polygon(100% 0%, 100% 85%, 50% 95%, 0 80%, 0 0);
+  box-shadow: inset 0 0 210px rgb(54, 31, 86);
+  pointer-events: none;
+}
+
+/* Header offset fix */
+/* [id] {
+  scroll-margin-top: 100px;
+} */
+
+.logo-lol-light,
+.lazy-load-image-background {
+  display: block !important;
+  height: 100%;
+  width: 100%;
+}
+
+.object-fit-cover {
+  object-fit: cover !important;
+}
+
+.lazy-load-image-background.blur {
+  filter: blur(20px);
+}
+
+.lazy-load-image-background.blur.lazy-load-image-loaded {
+  filter: none;
+  transition: filter 0.3s;
 }
 .logo-lol-light,
 .logo-lol-dark {
@@ -275,6 +318,16 @@ li:nth-child(even)::marker {
 .quote-start,
 .quote-end {
   margin-top: 1vh !important;
+}
+.pdf-icon {
+  font-size: 1.5rem;
+  color: red;
+}
+
+.position-background {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
 
 /* MEDIAQUERIES */
@@ -373,11 +426,12 @@ li:nth-child(even)::marker {
 
 /* // X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  .Tiret {
+  /* .Tiret {
     width: 11vw !important;
-  }
+  } */
+
   .Titre1 {
-    font-size: 6vw;
+    font-size: 3.5vw;
   }
   .logo-lol-light,
   .logo-lol-dark {
@@ -398,7 +452,7 @@ li:nth-child(even)::marker {
     margin-top: -2vh;
   }
   .vertical {
-    height: 36vh;
+    height: 35vh;
   }
   .quote-start,
   .quote-end {
@@ -409,7 +463,7 @@ li:nth-child(even)::marker {
 
 @media (min-width: 1400px) {
   .Tiret {
-    width: 12vw !important;
+    width: 7.5vw !important;
   }
   .logo-lol-light,
   .logo-lol-dark {
@@ -434,6 +488,9 @@ li:nth-child(even)::marker {
   .quote-start,
   .quote-end {
     margin-top: -5vh !important;
+  }
+  .vertical {
+    height: 23vh;
   }
 }
 

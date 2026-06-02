@@ -125,8 +125,37 @@
   border-color: transparent !important;
 } */
 
-.btn:active {
-  border-color: transparent !important;
+.navbar .btn,
+.navbar .btn:focus,
+.navbar .btn:active,
+.navbar .btn:focus-visible,
+.navbar .dropdown-toggle,
+.navbar .dropdown-toggle:focus,
+.navbar .dropdown-toggle:active,
+.navbar .dropdown-toggle:focus-visible,
+.navbar .dropdown-menu,
+.navbar .dropdown-item,
+.navbar .nav-link,
+.navbar .navbar-brand {
+  outline: 0 !important;
+  outline-offset: 0 !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+
+.btn-transparent,
+.btn-transparent:focus,
+.btn-transparent:active,
+.btn-warning,
+.btn-warning:focus,
+.btn-warning:active {
+  box-shadow: none !important;
+  outline: 0 !important;
+  background-image: none !important;
+}
+
+.btn-transparent {
+    background-color: transparent !important;
 }
 
 /* .nav-link {
@@ -143,7 +172,10 @@
   opacity: 0;
   max-height: 0;
   overflow: hidden;
-  transition: opacity 0.8s ease, max-height 1.2s ease-out, visibility 1.2s; /* Increased opacity and visibility durations */
+  transition:
+    opacity 0.8s ease,
+    max-height 1.2s ease-out,
+    visibility 1.2s; /* Increased opacity and visibility durations */
   margin-top: 0;
   padding-top: 0;
   padding-bottom: 0;

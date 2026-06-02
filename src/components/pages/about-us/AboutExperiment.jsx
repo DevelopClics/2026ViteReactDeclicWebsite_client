@@ -2,17 +2,19 @@ import React, { useContext, useRef, useEffect } from "react";
 import { ThemeContext } from "../../../context/ThemeContext";
 import { HashLink as Link } from "react-router-hash-link";
 
-import ORG from "../../../img/2025-organigramme.svg";
+import ORG from "../../../img/about/2026-04-20-Organigramme.svg";
 import PctRaisonEtre from "../../../img/raison-d-etre.jpg";
 import Team from "../../../img/about/team-vallon-pont-arc-crop.jpg";
 import Picture from "../../elements/Picture";
 import TitleTwo from "../../elements/Titles/TitleTwo";
+import { FaFilePdf } from "react-icons/fa";
 
 import LC from "../../../img/commissionEbe/Laurent-CONSIGNY.jpg";
 import SL from "../../../img/commissionEbe/Stephane LECAILLE.jpg";
 import AC from "../../../img/commissionEbe/Alexandre COVELLI.jpg";
-import JC from "../../../img/commissionEbe/Jerome CLAVERT.jpg";
 import CB from "../../../img/commissionEbe/Cecile BAYLE.jpg";
+import RA2024 from "../../../img/about/2024-couv-rapport-activités-web.jpg";
+import RA2023 from "../../../img/about/2023-couv-rapport-activités-web.jpg";
 
 const AboutExperiment = () => {
   const { theme } = useContext(ThemeContext);
@@ -159,9 +161,9 @@ const AboutExperiment = () => {
                 </div>
               </h5>
             </div>
-            <div className="col-12 col-lg-4">
+            <div className="col-12 col-lg-4 d-flex justify-content-center align-items-center">
               <Picture
-                classe="w-75 rounded-7"
+                classe="w-75 rounded-5"
                 pct={PctRaisonEtre}
                 alt="Visuel de la Raison d'être"
               />
@@ -169,7 +171,7 @@ const AboutExperiment = () => {
           </div>
         </div>
         <div className="container px- pt-5 rounded-1">
-          <TitleTwo txt="Composition de la commission EBE" />
+          <TitleTwo txt="Conseil d'administration" />
           <div className="row mt-5">
             <div className="col-12 mb-5">
               <h2 className="pt-2 Texte1 text-center">
@@ -181,74 +183,55 @@ const AboutExperiment = () => {
               </h2>
             </div>
 
-            <div className="col-12 p-4 border border-success rounded-2">
-              <div className="row ">
-                <div className="col-12">
-                  {/* <h5 className="pt-2 Texte1 text-end"> */}
-                  <div className="d-lg-flex justify-content-center">
-                    {/* GG */}
-                    <div>
-                      <Picture
-                        classe="w-50 w-md-50 w-lg-25 img-fluid rounded-circle"
-                        pct={JC}
-                        alt="Photo de Jérôme CLAVERT - Administrateur"
-                      />
-                      <h5 className="pt-2 text-center text-start">
-                        Jérôme CLAVERT - Président
-                      </h5>
-                    </div>
-                    {/* Lolo */}
-                    <div>
-                      <Picture
-                        classe="w-50 w-md-50 w-lg-25 img-fluid rounded-circle"
-                        pct={LC}
-                        alt="Photo de Laurent CONSIGNY - Président"
-                      />
-                      <h5 className="pt-2 text-center">
-                        Laurent CONSIGNY - Administrateur
-                      </h5>
-                    </div>
+            <div className="col-12 col-md-10 mx-auto p-4 border border-success rounded-2">
+              <div className="row justify-content-center">
+                <div className="col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center mb-4">
+                  <div style={{ width: "160px" }} className="ratio ratio-1x1">
+                    <Picture
+                      classe="rounded-circle"
+                      pct={LC}
+                      alt="Photo de Laurent CONSIGNY - Président"
+                    />
                   </div>
-
-                  <div className="d-lg-flex pt-0 justify-content-center">
-                    <div>
-                      <Picture
-                        classe="w-50 w-md-50 w-lg-25 img-fluid rounded-circle"
-                        pct={CB}
-                        alt="Photo de Cécile BAYLE - Administratrice"
-                      />
-                      <h5 className="pt-2 text-center">
-                        Cécile BAYLE - Administratrice
-                      </h5>
-                    </div>
+                  <h5 className="pt-3 text-center">
+                    Laurent CONSIGNY - Président
+                  </h5>
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center mb-4">
+                  <div style={{ width: "160px" }} className="ratio ratio-1x1">
+                    <Picture
+                      classe="rounded-circle"
+                      pct={SL}
+                      alt="Photo de Stéphane LECAILLE - Trésorier"
+                    />
                   </div>
-
-                  {/* JJJ */}
-                  <div className="d-lg-flex pt-0 justify-content-center">
-                    {/* GG */}
-                    <div>
-                      <Picture
-                        classe="w-50 w-md-50 w-lg-25 img-fluid rounded-circle"
-                        pct={SL}
-                        alt="Photo de Stéphane LECAILLE - Administrateur"
-                      />
-                      <h5 className="pt-2 text-center">
-                        Stéphane LECAILLE - Administrateur
-                      </h5>
-                    </div>
-                    {/* Lolo */}
-                    <div>
-                      <Picture
-                        classe="w-50 w-md-50 w-lg-25 img-fluid rounded-circle"
-                        pct={AC}
-                        alt="Photo de Alexandre COVELLI - Administrateur"
-                      />
-                      <h5 className="pt-2 text-center">
-                        Alexandre COVELLI - Administrateur
-                      </h5>
-                    </div>
+                  <h5 className="pt-3 text-center">
+                    Stéphane LECAILLE - Trésorier
+                  </h5>
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center mb-4">
+                  <div style={{ width: "160px" }} className="ratio ratio-1x1">
+                    <Picture
+                      classe="rounded-circle"
+                      pct={CB}
+                      alt="Photo de Cécile BAYLE - Administratrice"
+                    />
                   </div>
-                  {/* JJJ */}
+                  <h5 className="pt-3 text-center">
+                    Cécile BAYLE - Administratrice
+                  </h5>
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center mb-4">
+                  <div style={{ width: "160px" }} className="ratio ratio-1x1">
+                    <Picture
+                      classe="rounded-circle"
+                      pct={AC}
+                      alt="Photo de Alexandre COVELLI - Administrateur"
+                    />
+                  </div>
+                  <h5 className="pt-3 text-center">
+                    Alexandre COVELLI - Administrateur
+                  </h5>
                 </div>
               </div>
             </div>
@@ -263,9 +246,79 @@ const AboutExperiment = () => {
           </div>
         </div>
         <div className="container-fluid p-5 rounded-1">
-          <TitleTwo txt="Rapport d'activité 2023" />
+          <TitleTwo txt="Rapports d'activité" />
           <h5 className="pt-2 Texte1 text-start"></h5>
-          <div style={{ textAlign: "center" }}>
+
+          <div className="row justify-content-center align-items-stretch g-2">
+            <div className="col-8 col-sm-6 col-md-5 col-lg-4 col-xl-3 d-flex">
+              <a
+                href="/medias/RA_2024.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-100 text-decoration-none"
+              >
+                <button
+                  type="button"
+                  className={`btn btn-lg fw-bold w-100 h-100 d-flex flex-column  ${
+                    theme
+                      ? `nav-style-black btn-outline-light`
+                      : `nav-style-white btn-outline-dark`
+                  }`}
+                >
+                  <div className="text-center">
+                    <FaFilePdf className="pdf-icon  mb-1" />
+                    2024
+                  </div>
+                  <div
+                    className="d-flex justify-content-center align-items-center flex-grow-1"
+                    style={{ minHeight: "180px" }}
+                  >
+                    <img
+                      src={RA2024}
+                      alt="preview 2024"
+                      className="img-fluid"
+                      style={{ maxHeight: "100%", objectFit: "contain" }}
+                    />
+                  </div>
+                </button>
+              </a>
+            </div>
+
+            <div className="col-8 col-sm-6 col-md-5 col-lg-4 col-xl-3 d-flex">
+              <a
+                href="https://www.calameo.com/read/007756043b3fa32925d4f"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-100 text-decoration-none"
+              >
+                <button
+                  type="button"
+                  className={`btn btn-lg fw-bold w-100 h-100 d-flex flex-column  ${
+                    theme
+                      ? `nav-style-black btn-outline-light`
+                      : `nav-style-white btn-outline-dark`
+                  }`}
+                >
+                  <div className="text-center">
+                    <FaFilePdf className="pdf-icon mb-1" />
+                    2023
+                  </div>
+                  <div
+                    className="d-flex justify-content-center align-items-center flex-grow-1"
+                    style={{ minHeight: "180px" }}
+                  >
+                    <img
+                      src={RA2023}
+                      alt="preview 2023"
+                      className="img-fluid"
+                      style={{ maxHeight: "100%", objectFit: "contain" }}
+                    />
+                  </div>
+                </button>
+              </a>
+            </div>
+          </div>
+          {/* <div style={{ textAlign: "center" }}>
             <div style={{ margin: "8px 0px 4px" }}>
               <a
                 href="https://www.calameo.com/books/007756043b3fa32925d4f"
@@ -274,8 +327,8 @@ const AboutExperiment = () => {
                 Rapport Activités Dedc 2023
               </a>
             </div>
-          </div>
-          <iframe
+          </div> */}
+          {/* <iframe
             ref={iframeRef}
             src="//v.calameo.com/?bkcode=007756043b3fa32925d4f"
             width="90%"
@@ -285,10 +338,10 @@ const AboutExperiment = () => {
             allowtransparency="true"
             allowFullScreen
             style={{ margin: "0 auto" }}
-          ></iframe>
-          <div style={{ margin: "4px 0px 8px" }}>
+          ></iframe> */}
+          {/* <div style={{ margin: "4px 0px 8px" }}>
             <a href="http://www.calameo.com/">Publish at Calameo</a>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

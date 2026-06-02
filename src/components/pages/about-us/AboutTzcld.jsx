@@ -86,7 +86,11 @@ const AboutDedc = () => {
 
           <div>
             {/* Image à améliorer */}
-            <Picture classe="col-12 col-md-6 " pct={pct1} alt="Slogans TZCLD" />
+            <Picture
+              classe="mx-auto col-12 w-50 col-md-6 "
+              pct={pct1}
+              alt="Slogans TZCLD"
+            />
           </div>
 
           <TitleTwo
@@ -158,7 +162,7 @@ const AboutDedc = () => {
           <div>
             {/* Image à améliorer */}
             <Picture
-              classe="col-12 rounded-5 "
+              classe="mx-auto w-75 col-12 rounded-5 "
               pct={pct2}
               alt="Eperimentation TZCLD"
             />
@@ -214,7 +218,7 @@ const AboutDedc = () => {
           <div>
             {/* Image à améliorer */}
             <Picture
-              classe="col-12 col-md-8  rounded-5 "
+              classe="w-50 mx-auto col-12  col-md-6  rounded-5 "
               pct={pct3}
               alt="Organnigramme TZCLD"
             />
