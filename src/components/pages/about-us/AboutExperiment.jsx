@@ -13,6 +13,7 @@ import LC from "../../../img/commissionEbe/Laurent-CONSIGNY.jpg";
 import SL from "../../../img/commissionEbe/Stephane LECAILLE.jpg";
 import AC from "../../../img/commissionEbe/Alexandre COVELLI.jpg";
 import CB from "../../../img/commissionEbe/Cecile BAYLE.jpg";
+import RA2025 from "../../../img/about/2025-couv-rapport-activités-web.jpg";
 import RA2024 from "../../../img/about/2024-couv-rapport-activités-web.jpg";
 import RA2023 from "../../../img/about/2023-couv-rapport-activités-web.jpg";
 
@@ -250,6 +251,39 @@ const AboutExperiment = () => {
           <h5 className="pt-2 Texte1 text-start"></h5>
 
           <div className="row justify-content-center align-items-stretch g-2">
+            <div className="col-8 col-sm-6 col-md-5 col-lg-4 col-xl-3 d-flex">
+              <a
+                href="https://www.calameo.com/read/00775604371d3c5e4ad4c"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-100 text-decoration-none"
+              >
+                <button
+                  type="button"
+                  className={`btn btn-lg fw-bold w-100 h-100 d-flex flex-column  ${
+                    theme
+                      ? `nav-style-black btn-outline-light`
+                      : `nav-style-white btn-outline-dark`
+                  }`}
+                >
+                  <div className="text-center">
+                    <FaFilePdf className="pdf-icon mb-1" />
+                    2025
+                  </div>
+                  <div
+                    className="d-flex justify-content-center align-items-center flex-grow-1"
+                    style={{ minHeight: "180px" }}
+                  >
+                    <img
+                      src={RA2025}
+                      alt="preview 2023"
+                      className="img-fluid"
+                      style={{ maxHeight: "100%", objectFit: "contain" }}
+                    />
+                  </div>
+                </button>
+              </a>
+            </div>
             <div className="col-8 col-sm-6 col-md-5 col-lg-4 col-xl-3 d-flex">
               <a
                 href="/medias/RA_2024.pdf"

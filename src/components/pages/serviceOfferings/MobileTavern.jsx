@@ -23,13 +23,13 @@ const MobileTavern = () => {
                 ou de petite restauration ? Quel dommage… !
               </h2>
 
-              <p className="pt-2 lh-1 Texte1 text-start">
+              {/* <p className="pt-2 lh-1 Texte1 text-start">
                 La Guinguette Mobile s’invite dans les quartiers du Teil ou les
                 communes environnantes pour agrémenter vos évènements (soirées
                 de quartier, spectacles, inauguration, projections plein air,
-                fête de village…). Elle se déplace à la demande et sans
-                contrepartie financière !
-              </p>
+                fête de village…). Elle se déplace à la demande (et à chaque
+                projet son devis !).
+              </p> */}
               <h5 className="pt-2 Texte1 text-start">
                 Retrouvez également, de mai à septembre, la Guinguette au Teil
                 au skate-park, à La Violette, à Mélas ou à La Sablière pour

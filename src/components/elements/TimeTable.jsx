@@ -39,15 +39,17 @@ const TimeTable = () => {
           <h5 className="bal col-12 pt-0 Texte1 text-start">
             <ul>
               <li className="puce-lol">
-                <strong>PRINTEMPS</strong>
+                <strong style={{ textTransform: "uppercase" }}>été 2026</strong>
               </li>
               <br />
+              Du <strong>mercredi au dimanche</strong> <br />
+              de
+              <strong> 14h</strong> à <strong>23h</strong>
               {/* <strong>Mercredi & samedi</strong> 14h ⇨ 23h
               <br />
               <strong>Jeudi & vendredi</strong> 17h ⇨ 23h
               <br />
               <strong>Dimanche</strong> 12h ⇨ 17h */}
-              <img src={IMAGE} />
               <br />
             </ul>
           </h5>

@@ -162,7 +162,7 @@ const Navigation = () => {
                     onToggle={(isOpen) => handleDropdownShow(index, isOpen)}
                     onMouseEnter={() => handleDropdownShow(index, true)}
                     onMouseLeave={() => handleDropdownShow(index, false)}
-                    className={`me-3 d-flex align-items-center border border-warning rounded-2 text-lg-center text-start`}
+                    className={`me-lg-3  align-items-center border border-warning rounded-2 text-lg-center text-start`}
                   >
                     <Button
                       as={Link}
@@ -215,7 +215,7 @@ const Navigation = () => {
                 <Button
                   as={Link}
                   key={index}
-                  className={`me-3 d-flex align-items-center justify-content-center border border-warning text-lg-center text-start btn-transparent nav-style ${
+                  className={`me-3 d-flex align-items-center justify-content-lg-center justify-content-start  border border-warning text-lg-center text-start btn-transparent nav-style ${
                     theme ? `nav-style-light` : `nav-style-dark`
                   }`}
                   to={navLink.to}

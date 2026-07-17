@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
 import { ThemeContext } from "../../../context/ThemeContext";
 import Picture from "../../elements/Picture";
-import loc01 from "../../../img/loc/flyer-a6-loc-vaisselle-final-repris.jpg";
-import loc02 from "../../../img/loc/flyer-a6-loc-vaisselle-final-repris2.jpg";
+import loc01 from "../../../img/loc/2026-06-flyer-a6-loc-vaisselle-1.jpg";
+import loc02 from "../../../img/loc/2026-06-flyer-a6-loc-vaisselle-2.jpg";
 import RENT from "../../datas/rentdishesDatas.json";
 import Quote from "../../elements/Quote";
 
@@ -34,7 +34,7 @@ const Loc = () => {
 
           <h5 className="pt-2 Texte1 text-start  ">
             <div className="my-5 text-center ">
-            <div className="row">
+              <div className="row">
                 <div className="col-12 col-lg-6 d-flex mb-3">
                   <div style={{ height: "400px" }} className="w-100">
                     <Picture
