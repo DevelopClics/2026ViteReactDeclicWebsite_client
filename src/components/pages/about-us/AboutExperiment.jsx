@@ -1,8 +1,8 @@
 import React, { useContext, useRef, useEffect } from "react";
 import { ThemeContext } from "../../../context/ThemeContext";
-import { HashLink as Link } from "react-router-hash-link";
+import { HashLink as Link } from "../../elements/navigation/HashLink";
 
-import ORG from "../../../img/about/2026-04-20-Organigramme.svg";
+import ORG from "../../../img/about/2026-Organigramme.svg";
 import PctRaisonEtre from "../../../img/raison-d-etre.jpg";
 import Team from "../../../img/about/team-vallon-pont-arc-crop.jpg";
 import Picture from "../../elements/Picture";
@@ -13,6 +13,12 @@ import LC from "../../../img/commissionEbe/Laurent-CONSIGNY.jpg";
 import SL from "../../../img/commissionEbe/Stephane LECAILLE.jpg";
 import AC from "../../../img/commissionEbe/Alexandre COVELLI.jpg";
 import CB from "../../../img/commissionEbe/Cecile BAYLE.jpg";
+import AG from "../../../img/commissionEbe/Alexandre-GEUNOT.jpg";
+import CF from "../../../img/commissionEbe/Caroline FALQUE.jpg";
+import AB from "../../../img/commissionEbe/Ali BOUMADHI.jpg";
+import AD from "../../../img/commissionEbe/Aurélie DUBOIS.jpg";
+import KC from "../../../img/commissionEbe/Katy COUILLOUD.jpg";
+import HL from "../../../img/commissionEbe/Henri-Pierre LAURENT.jpg";
 import RA2025 from "../../../img/about/2025-couv-rapport-activités-web.jpg";
 import RA2024 from "../../../img/about/2024-couv-rapport-activités-web.jpg";
 import RA2023 from "../../../img/about/2023-couv-rapport-activités-web.jpg";
@@ -177,9 +183,9 @@ const AboutExperiment = () => {
             <div className="col-12 mb-5">
               <h2 className="pt-2 Texte1 text-center">
                 <strong>
-                  Un grand merci à nos administrateurs bénévoles qui se
-                  réunissent tous les mois, pour accompagner le pilotage et la
-                  stratégie de Déclic et des Claps.
+                  Un grand merci à nos administrateurs bénévoles pour
+                  accompagner le pilotage et la stratégie de Déclic et des
+                  Claps.
                 </strong>
               </h2>
             </div>
@@ -191,11 +197,13 @@ const AboutExperiment = () => {
                     <Picture
                       classe="rounded-circle"
                       pct={LC}
-                      alt="Photo de Laurent CONSIGNY - Président"
+                      alt="Photo de Laurent CONSIGNY - Co-président"
                     />
                   </div>
                   <h5 className="pt-3 text-center">
-                    Laurent CONSIGNY - Président
+                    Laurent CONSIGNY
+                    <br />
+                    Co-président
                   </h5>
                 </div>
                 <div className="col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center mb-4">
@@ -203,11 +211,27 @@ const AboutExperiment = () => {
                     <Picture
                       classe="rounded-circle"
                       pct={SL}
-                      alt="Photo de Stéphane LECAILLE - Trésorier"
+                      alt="Photo de Stéphane LECAILLE -  Co-président"
                     />
                   </div>
                   <h5 className="pt-3 text-center">
-                    Stéphane LECAILLE - Trésorier
+                    Stéphane LECAILLE
+                    <br />
+                    Co-président
+                  </h5>
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center mb-4">
+                  <div style={{ width: "160px" }} className="ratio ratio-1x1">
+                    <Picture
+                      classe="rounded-circle"
+                      pct={AD}
+                      alt="Photo de Cécile BAYLE - Administratrice"
+                    />
+                  </div>
+                  <h5 className="pt-3 text-center">
+                    Aurélie DUBOIS
+                    <br />
+                    Secrétaire
                   </h5>
                 </div>
                 <div className="col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center mb-4">
@@ -219,9 +243,12 @@ const AboutExperiment = () => {
                     />
                   </div>
                   <h5 className="pt-3 text-center">
-                    Cécile BAYLE - Administratrice
+                    Cécile BAYLE
+                    <br />
+                    Administratrice
                   </h5>
                 </div>
+
                 <div className="col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center mb-4">
                   <div style={{ width: "160px" }} className="ratio ratio-1x1">
                     <Picture
@@ -231,7 +258,78 @@ const AboutExperiment = () => {
                     />
                   </div>
                   <h5 className="pt-3 text-center">
-                    Alexandre COVELLI - Administrateur
+                    Alexandre COVELLI
+                    <br />
+                    Administrateur
+                  </h5>
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center mb-4">
+                  <div style={{ width: "160px" }} className="ratio ratio-1x1">
+                    <Picture
+                      classe="rounded-circle"
+                      pct={HL}
+                      alt="Photo de Alexandre COVELLI - Administrateur"
+                    />
+                  </div>
+                  <h5 className="pt-3 text-center">
+                    Henri-Pierre LAURENT
+                    <br />
+                    Administrateur
+                  </h5>
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center mb-4">
+                  <div style={{ width: "160px" }} className="ratio ratio-1x1">
+                    <Picture
+                      classe="rounded-circle"
+                      pct={KC}
+                      alt="Photo de Alexandre COVELLI - Administrateur"
+                    />
+                  </div>
+                  <h5 className="pt-3 text-center">
+                    Katy COUILLOUD <br />
+                    Administratrice
+                  </h5>
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center mb-4">
+                  <div style={{ width: "160px" }} className="ratio ratio-1x1">
+                    <Picture
+                      classe="rounded-circle"
+                      pct={AB}
+                      alt="Photo de Caroline FALQUE"
+                    />
+                  </div>
+                  <h5 className="pt-3 text-center">
+                    Ali BOUMADHI
+                    <br />
+                    Administrateur
+                  </h5>
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center mb-4">
+                  <div style={{ width: "160px" }} className="ratio ratio-1x1">
+                    <Picture
+                      classe="rounded-circle"
+                      pct={AG}
+                      alt="Photo de Alexandre GEUNOT"
+                    />
+                  </div>
+                  <h5 className="pt-3 text-center">
+                    Alexandre GEUNOT
+                    <br />
+                    Représentant des salariés
+                  </h5>
+                </div>
+                <div className="col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center mb-4">
+                  <div style={{ width: "160px" }} className="ratio ratio-1x1">
+                    <Picture
+                      classe="rounded-circle"
+                      pct={CF}
+                      alt="Photo de Caroline FALQUE"
+                    />
+                  </div>
+                  <h5 className="pt-3 text-center">
+                    Caroline FALQUE
+                    <br />
+                    Représentante des salariés
                   </h5>
                 </div>
               </div>

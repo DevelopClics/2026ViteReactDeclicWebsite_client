@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import Spinner from "react-bootstrap/Spinner";
+import ESS from "../../img/Engagé pour ESS_Logo_Rouge Framboise.svg";
 
 const ResponsiveBanner = ({
   bannerXXL,
@@ -89,6 +90,22 @@ const ResponsiveBanner = ({
           zIndex: 0,
         }}
       />
+
+      {/* ESS Logo  Upleft */}
+
+      <img
+        src={ESS}
+        alt="Engagé pour l'ESS"
+        style={{
+          position: "absolute",
+          top: "35px",
+          left: "15px",
+          width: "94px",
+          height: "auto",
+          zIndex: 2,
+        }}
+      />
+
       {loading && showSpinner && (
         <div
           style={{

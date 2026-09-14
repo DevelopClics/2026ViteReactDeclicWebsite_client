@@ -1,5 +1,29 @@
 [
   {
+    "id": "1",
+    "pct": "/images/nextEvents/2026-07-19_voyage-en-cuisine.jpg",
+    "title": "Voyage en cuisine",
+    "place": "LOL",
+    "day": "dimanche",
+    "date": "19/07/2026",
+    "hours": "à partir de 19h",
+    "content1": "Vous aviez l'habitude de venir bruncher le dimanche au LOL ?",
+
+    "content2": "Nous passons en horaire d'été, et la chaleur nous donne plutôt envie de se retrouver le soir.",
+    "content3": "Régulièrement, l'équipe de Déclic vous propose de vous faire voyager le palais, en proposant des spécialités des quatre coins du monde.",
+    "content4": "Pour ce premier rendez-vous, direction l'Amérique du sud avec un véritable Chili con (et sin) carne.",
+    "subcontent1": "Buen approveche !",
+
+    "subcontent2": "",
+    "subcontent3": "",
+    "subcontent4": "",
+    "subcontent5": "",
+    "resa": "Réservation nécessaire au ☎️  06 58 23 03 26 (nombre de places limité pour garantir un meilleur accueil).",
+    "cost": "💰 12€ adulte / 10€ enfant",
+
+    "link": "news/#1"
+  },
+  {
     "id": "2",
     "pct": "/images/nextEvents/2025-07-08-guinguettes-96.jpg",
     "title": "La Guinguette Mobile et ludique revient avec ses jeux en bois !",
@@ -28,7 +52,7 @@
     "id": "3",
     "pct": "/images/nextEvents/2025-08-soirée-loups-garous.png",
     "title": "Soirée les loups-garous de Thiercelieux ",
-    "place": "LOL",
+    "place": "LOL",x
     "day": "jeudi",
     "date": "21/08/2025",
     "hours": "à partir de 20h",

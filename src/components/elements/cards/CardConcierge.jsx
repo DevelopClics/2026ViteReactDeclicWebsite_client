@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import { ThemeContext } from "../../../context/ThemeContext";
-import { HashLink as Link } from "react-router-hash-link";
 import Card from "react-bootstrap/Card";
 
 const CarteConcierge = ({ pct, alt, title, line1, line2, line3, line4 }) => {

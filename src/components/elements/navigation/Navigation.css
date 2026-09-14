@@ -82,9 +82,16 @@
   height: 80px;
 }
 
+.elevator {
+  overflow: hidden;
+}
+
 @media (min-width: 576px) {
   .App-nav {
     height: 80px;
+  }
+  .elevator {
+    overflow: hidden;
   }
 }
 /* // Medium devices (tablets, 768px and up) */
@@ -93,10 +100,16 @@
   .App-nav {
     height: 80px;
   }
+  .elevator {
+    overflow: hidden;
+  }
 }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .elevator {
+    overflow: visible;
+  }
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
@@ -168,6 +181,7 @@
 /* CSS for slow unfolding dropdown */
 .dropdown-menu {
   display: block !important;
+
   visibility: hidden;
   opacity: 0;
   max-height: 0;
@@ -184,8 +198,17 @@
 
 .dropdown-menu.show {
   visibility: visible;
+
   opacity: 1;
   max-height: 500px; /* A value large enough to contain all content */
   padding-top: var(--bs-dropdown-padding-y); /* Restore padding */
   padding-bottom: var(--bs-dropdown-padding-y); /* Restore padding */
+}
+
+.border-warning {
+  border-color: #f3953f !important;
+}
+
+.nav-pad {
+  padding-top: 3px !important;
 }

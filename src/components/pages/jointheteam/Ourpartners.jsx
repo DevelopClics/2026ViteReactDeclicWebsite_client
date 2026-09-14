@@ -2,10 +2,9 @@ import React, { useContext } from "react";
 import { ThemeContext } from "../../../context/ThemeContext";
 import Partners from "../Partners";
 import Customers from "../Customers";
-import TitleOne from "../../elements/Titles/TitleOne";
 import TitleTwo from "../../elements/Titles/TitleTwo";
 import Joins from "../Joins";
-import logo from "../../../../public/images/clients/2024.04.30-BANDEAU-LOGOS.jpeg";
+import logo from "/images/clients/2024.04.30-BANDEAU-LOGOS.jpeg";
 
 const Ourpartners = () => {
   const { theme } = useContext(ThemeContext);

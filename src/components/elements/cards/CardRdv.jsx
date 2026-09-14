@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { ThemeContext } from "../../../context/ThemeContext";
 // import Button from "react-bootstrap/Button";
-import { HashLink as Link } from "react-router-hash-link";
+import { HashLink as Link } from "../navigation/HashLink";
 import Card from "react-bootstrap/Card";
 
 const CarteRdv = ({ pct, title, content, link }) => {

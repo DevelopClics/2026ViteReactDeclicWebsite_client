@@ -23,13 +23,13 @@ const InfosDetails = () => {
                 <h6>
                   <u>Siége Social</u> :
                   <br />
-                  77 Rue de la République 07400 Le Teil
+                  30, avenue Henri Barbusse 07400 Le Teil
                   <br /> <br />
                   <u>Tél.</u> : 09 55 23 69 90
                   <br /> <br />
                   <u>SIRET</u> :
                   <br />
-                  539 096 172 000 41
+                  943 534 198 000 16
                 </h6>
               </div>
 

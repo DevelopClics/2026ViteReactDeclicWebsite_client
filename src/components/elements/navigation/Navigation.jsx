@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import { ThemeContext } from "../../../context/ThemeContext";
-import { HashLink as Link } from "react-router-hash-link";
+import { HashLink as Link } from "./HashLink";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Navigation.css";
@@ -54,6 +54,10 @@ const Navigation = () => {
         {
           title: "Animations jeux",
           to: "/services/#animations",
+        },
+        {
+          title: "Accueil des centres de loisirs",
+          to: "/services/#leisure",
         },
         {
           title: "Conciergerie de gîtes saisonniers",
@@ -162,12 +166,12 @@ const Navigation = () => {
                     onToggle={(isOpen) => handleDropdownShow(index, isOpen)}
                     onMouseEnter={() => handleDropdownShow(index, true)}
                     onMouseLeave={() => handleDropdownShow(index, false)}
-                    className={`me-lg-3  align-items-center border border-warning rounded-2 text-lg-center text-start`}
+                    className={`nav-pad elevator  me-lg-3  align-items-center border border-warning rounded-2 text-lg-center text-start`}
                   >
                     <Button
                       as={Link}
                       onClick={handleNavClose}
-                      className={`btn-transparent border-0 nav-style ${
+                      className={` btn-transparent border-0 nav-style ${
                         theme ? `nav-style-light` : `nav-style-dark`
                       }`}
                       to={navLink.to}
@@ -180,6 +184,7 @@ const Navigation = () => {
                       variant="warning"
                       id={`dropdown-split-basic-${index}`}
                     />
+
                     <Dropdown.Menu
                       className={`nav-style ${
                         theme ? `nav-style-light` : `nav-style-dark`
@@ -215,7 +220,7 @@ const Navigation = () => {
                 <Button
                   as={Link}
                   key={index}
-                  className={`me-3 d-flex align-items-center justify-content-lg-center justify-content-start  border border-warning text-lg-center text-start btn-transparent nav-style ${
+                  className={`me-lg-3 d-flex align-items-center justify-content-lg-center justify-content-start  border border-warning text-lg-center text-start btn-transparent nav-style ${
                     theme ? `nav-style-light` : `nav-style-dark`
                   }`}
                   to={navLink.to}

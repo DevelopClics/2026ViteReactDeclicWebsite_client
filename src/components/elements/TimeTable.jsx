@@ -44,7 +44,7 @@ const TimeTable = () => {
               <br />
               Du <strong>mercredi au dimanche</strong> <br />
               de
-              <strong> 14h</strong> à <strong>23h</strong>
+              <strong> 16h</strong> à <strong>23h</strong>
               {/* <strong>Mercredi & samedi</strong> 14h ⇨ 23h
               <br />
               <strong>Jeudi & vendredi</strong> 17h ⇨ 23h

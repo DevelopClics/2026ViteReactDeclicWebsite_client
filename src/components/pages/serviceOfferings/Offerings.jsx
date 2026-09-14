@@ -13,6 +13,7 @@ import Distribution from "./Distribution";
 import MobileTavern from "./MobileTavern";
 import AfterschoolWorkshops from "./AfterschoolWorkshops";
 import TitleOne from "../../elements/Titles/TitleOne";
+import LeisureCenter from "./LeisureCenter";
 
 const Offerings = () => {
   const { theme } = useContext(ThemeContext);
@@ -60,6 +61,19 @@ const Offerings = () => {
         </div>
       </div>
       <AnimationsGames />
+
+      <div
+        id="leisure"
+        className="container-fluid titre-container pt-1 mb-5"
+        style={{ scrollMarginTop: "150px" }}
+      >
+        <div className="pt-0">
+          <div className=" col text-start text-light">
+            <TitleOne l1="L'accueil des centres" l2="de loisirs" />
+          </div>
+        </div>
+      </div>
+      <LeisureCenter />
 
       <div
         id="bienvenue"

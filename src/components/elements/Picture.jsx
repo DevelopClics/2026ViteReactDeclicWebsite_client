@@ -36,8 +36,8 @@ const PictureContent = ({ classe, pct, alt, speed }) => {
         src={pct}
         alt={alt}
         style={{
-          width: "100%",
-          height: "100%",
+          // width: "25",
+          // height: "100%",
           objectFit: "cover", // 🔥 essentiel
           display: "block",
         }}

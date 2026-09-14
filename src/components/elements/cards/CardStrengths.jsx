@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import { ThemeContext } from "../../../context/ThemeContext";
 // import Button from "react-bootstrap/Button";
-import { HashLink as Link } from "react-router-hash-link";
 import Card from "react-bootstrap/Card";
 
 const CarteForces = ({ title, content }) => {

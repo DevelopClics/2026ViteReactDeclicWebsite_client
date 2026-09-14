@@ -3,14 +3,13 @@ import { ThemeContext } from "../../../context/ThemeContext";
 import "../../../App.css";
 import "./Footer.css";
 import px from "../../../img/px.svg";
+import ESS from "../../../img/Engagé pour ESS_Logo_V2_Blanc-01.png";
 import { BiLogoFacebookSquare } from "react-icons/bi";
-// import { BiNews } from "react-icons/bi";
 import { IoIosMail } from "react-icons/io";
 
 import { FaSquareInstagram } from "react-icons/fa6";
 import { Link } from "react-router-dom";
-// import { Button, Navbar } from "react-bootstrap";
-import { HashLink as Linky } from "react-router-hash-link";
+import { HashLink as Linky } from "../navigation/HashLink";
 
 const Footer = () => {
   const { theme } = useContext(ThemeContext);
@@ -21,7 +20,23 @@ const Footer = () => {
         className={`border-top  border-3 border-warning fixed-bottom px-2 pt-xs-2 pt-sm-2 foot-link ${
           theme ? `bg-darkness` : `bg-light`
         }`}
+        // style={{
+        //   position: "fixed",
+        // }}
       >
+        {/* ESS Logo above footer */}
+        <img
+          src={ESS}
+          alt="Engagé pour l'ESS"
+          style={{
+            position: "absolute",
+            bottom: "60%",
+            right: "0",
+            width: "500px",
+            height: "auto",
+            zIndex: 10,
+          }}
+        />
         <h6>
           <Linky to="/#home" aria-current="page">
             <img

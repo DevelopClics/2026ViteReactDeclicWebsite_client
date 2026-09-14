@@ -53,3 +53,43 @@ li:nth-child(even of .puce-peri)::marker {
   color: #0cdf9c;
   content: "✲ ";
 }
+
+.without-dot {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* MEDIAQUERIES */
+@media (min-width: 576px) {
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /*  min-height: 50vh !important;   */
+  .plaket-pdf {
+    margin-top: -0vh;
+    margin-left: 0vw !important;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .plaket-pdf {
+    margin-top: 0vh;
+    margin-left: 0vw !important;
+  }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .plaket-pdf {
+    margin-top: -35vh;
+    margin-left: -8vw !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .plaket-pdf {
+    margin-top: -15vh;
+    margin-left: -8vw !important;
+  }
+}

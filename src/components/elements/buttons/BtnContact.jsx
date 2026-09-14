@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { ThemeContext } from "../../../context/ThemeContext";
-import { HashLink as Link } from "react-router-hash-link";
+import { HashLink as Link } from "../navigation/HashLink";
 
 const BtnContact = () => {
   const { theme } = useContext(ThemeContext);

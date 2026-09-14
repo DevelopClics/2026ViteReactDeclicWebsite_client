@@ -1,5 +1,28 @@
 [
   {
+    "id": "15",
+    "pct": "/images/nextEvents/2026-07-25-KoralOk-web.png",
+    "title": "Karaoké Chorale",
+    "place": "SKATE PARK – Le Teil ",
+    "day": "Samedi",
+    "date": "25 juillet",
+    "hours": "à partir de 19h",
+    "content1": "Ce samedi au LOL, c’est Karaoké chorale !",
+
+    "content2": "Un Karaoké oui, mais TOUS et TOUTES ensemble…",
+    "content3": "Vous choisissez les morceaux et tout le monde reprend le refrain.",
+    "content4": "",
+    "subcontent1": "Buvette et petite restauration sur place.",
+    "subcontent2": "",
+    "subcontent3": "",
+    "subcontent4": "",
+    "subcontent5": "",
+    "resa": "",
+    "cost": "",
+
+    "link": "news/#15"
+  },
+  {
     "id": "1",
     "pct": "/images/nextEvents/void.png",
     "title": "Le parc Laparel se transforme en forêt ludique",

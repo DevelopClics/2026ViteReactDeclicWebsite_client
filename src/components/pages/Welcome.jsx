@@ -1,5 +1,5 @@
 import React, { useContext, useState, useRef } from "react";
-import gsap from "gsap";
+// import gsap from "gsap";
 // import { useGSAP } from "@gsap/react";
 import { useScrollAnimations } from "../../hooks/useScrollAnimations.jsx";
 
@@ -27,6 +27,7 @@ import CarteNombres from "../elements/cards/CardNumbers";
 import NEXTDATES from "../datas/nextDatesDatas.json";
 import ResponsiveBanner from "../elements/ResponsiveBanner";
 import CarteInfos from "../elements/cards/CardInfos.jsx";
+import Refund from "./Refund.jsx";
 
 // import { Button } from "react-bootstrap";
 // import { Link } from "react-router-dom";
@@ -229,6 +230,7 @@ const Welcome = () => {
           />
         </div>
 
+        <Refund />
         <div id="" className="pt-5 mb-5"></div>
 
         <div id="titre1" className="container-fluid">

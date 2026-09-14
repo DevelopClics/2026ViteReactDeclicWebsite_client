@@ -141,7 +141,35 @@ const AnimationsGames = () => {
               sign="Anne-Sophie HENNION"
             />
           </div>
-          <div className="mb-3 mb-lg-4 col-12 col-xl-4"></div>
+          <div
+            // style={{ marginTop: "-225px" }}
+            className="mb-3 mb-lg-4  col-12 col-xl-4"
+          >
+            <div className="plaket-pdf">
+              <a
+                href="https://www.calameo.com/read/007756043e1eabd13300d"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-75"
+              >
+                <button
+                  type="button"
+                  className={`btn btn-lg fw-bold w-75 
+                  ${
+                    theme
+                      ? `nav-style-black btn-outline-light`
+                      : `nav-style-white btn-outline-dark`
+                  }`}
+                >
+                  <FaFilePdf className="pdf-icon  mb-1" />
+                  Plaquette animation jeux
+                  <div>
+                    <img src={PdfAnim} alt="preview" className="img-fluid" />
+                  </div>
+                </button>
+              </a>
+            </div>
+          </div>
 
           <div className="col-12 col-sm-6 col-md-6 col-xl-4 pb-3">
             <div style={{ height: "400px" }} className="w-100">
@@ -246,50 +274,7 @@ const AnimationsGames = () => {
           </div>
 
           {/* ANNIV */}
-          <div className="col-12 col-xl-6">
-            <TitleTwo txt="Animations jeux" subtxt="pour centres de loisirs" />
-            {/* <TitleThree txt="pour centres de loisirs" /> */}
 
-            <Quote
-              line1="Ces deux séances ont été une réussite ! "
-              line2="Les enfants n&#39;ont
-              fait que des bons retours."
-              line3="Encore un grand merci à vous et votre équipe pour l&#39;accueil et
-              l&#39;accompagnement des enfants."
-              // line4=""
-              line5="A très bientôt pour
-              d&#39;autres parties… "
-              sign="L’ALPEV de Viviers – Octobre 2024"
-            />
-
-            {/* <div style={{ color: "red" }}>
-              En attente d’un témoignage de CLEFS - Floriane
-            </div> */}
-            <div className="mt-3">
-              <a
-                href="https://www.calameo.com/read/007756043e1eabd13300d"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-50"
-              >
-                <button
-                  type="button"
-                  className={`btn btn-lg fw-bold w-50 
-                  ${
-                    theme
-                      ? `nav-style-black btn-outline-light`
-                      : `nav-style-white btn-outline-dark`
-                  }`}
-                >
-                  <FaFilePdf className="pdf-icon  mb-1" />
-                  Plaquette animation jeux
-                  <div>
-                    <img src={PdfAnim} alt="preview" className="img-fluid" />
-                  </div>
-                </button>
-              </a>
-            </div>
-          </div>
           <div className="col-12 col-xl-6">
             <TitleTwo txt="Anniversaires enfants" />
 
@@ -420,9 +405,9 @@ const AnimationsGames = () => {
                 sign="Marie-Claire PONCET, Directrice de CLEFS - octobre 2024"
               />
             </div>
-          </div>
-          {/* SOIREE */}
-          <div className="col-12 col-lg-6">
+
+            {/* SOIREE */}
+            {/* <div className="col-12 col-lg-6"> */}
             <TitleTwo txt="Soirées afterwork" />
             <h5 className="pt-2 Texte1 text">
               <Quote
@@ -450,6 +435,7 @@ const AnimationsGames = () => {
           </div>
         </div>
       </div>
+      {/* </div> */}
     </>
   );
 };
