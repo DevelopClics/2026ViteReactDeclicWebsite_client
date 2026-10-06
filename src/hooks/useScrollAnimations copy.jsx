@@ -11,12 +11,13 @@ export const useScrollAnimations = (containerRef) => {
       // Left block animation
       gsap.from(".decal-left", {
         opacity: 0,
-        x: -120,
+        x: -500,
+        scale: 2,
         duration: 0.6,
         ease: "power3.out",
         scrollTrigger: {
           trigger: ".decal-left",
-          start: "top 75%",
+          start: "top 50%",
           once: true,
         },
       });
@@ -24,26 +25,27 @@ export const useScrollAnimations = (containerRef) => {
       // Right block animation
       gsap.from(".decal-right", {
         opacity: 0,
-        x: 120,
+        x: 500,
+        scale: 2,
         duration: 0.6,
         ease: "power3.out",
         scrollTrigger: {
           trigger: ".decal-right",
-          start: "top 75%",
+          start: "top 50%",
           once: true,
         },
       });
 
-      // Sections animation (smooth vertical fade-in without breaking layout height)
+      // Zoom sections
       gsap.utils.toArray(".zoom-section").forEach((section) => {
         gsap.from(section, {
           opacity: 0,
-          y: 40,
+          scale: 1.5,
           duration: 0.6,
           ease: "power2.out",
           scrollTrigger: {
             trigger: section,
-            start: "top 80%",
+            start: "top 50%",
             once: true,
           },
         });

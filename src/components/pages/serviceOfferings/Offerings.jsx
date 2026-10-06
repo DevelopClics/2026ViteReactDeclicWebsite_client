@@ -144,18 +144,20 @@ const Offerings = () => {
       </div>
       <MobileTavern />
 
-      <div
-        id="after-school-workshops"
-        className="container-fluid titre-container pt-1 mb-5"
-        style={{ scrollMarginTop: "150px" }}
-      >
-        <div className="pt-0">
-          <div className="col text-start text-light">
-            <TitleOne l1="Les ateliers" l2="périscolaires" />
+      <div style={{ minHeight: "calc(100vh - 100px)" }}>
+        <div
+          id="after-school-workshops"
+          className="container-fluid titre-container pt-1 mb-5"
+          style={{ scrollMarginTop: "150px" }}
+        >
+          <div className="pt-0">
+            <div className="col text-start text-light">
+              <TitleOne l1="Les ateliers" l2="périscolaires" />
+            </div>
           </div>
         </div>
+        <AfterschoolWorkshops />
       </div>
-      <AfterschoolWorkshops />
       <div className="mb-5 pb-5"></div>
     </div>
   );

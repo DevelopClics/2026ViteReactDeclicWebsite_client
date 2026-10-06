@@ -65,8 +65,8 @@ const GameBar = () => {
                 </li>
 
                 <li className="puce-lol">
-                  Des <strong>soirées à thèmes :</strong> concerts, karaokés,
-                  soirées murder dinner, conférences, lectures, projections…
+                  Des <strong>événements :</strong> loto, scêne ouverte, loups
+                  garous, disco raclette, soirée dansante, karaoké, projection…
                 </li>
               </ul>
             </h5>
@@ -76,14 +76,16 @@ const GameBar = () => {
             <h5>
               <ul>
                 <li className="puce-lol">
-                  Un <strong>club d’échec </strong>les mercredis
+                  Un <strong>club d’échec </strong> et{" "}
+                  <strong>jeux de cartes</strong> les mercredis
                 </li>
                 <li className="puce-lol">
-                  Et de<strong> jeux experts </strong>les jeudis
+                  Et un<strong> Club Murder - le repas enquête</strong> les 2e
+                  jeudis du mois
                 </li>
                 <li className="puce-lol">
-                  Un<strong> brunch gourmand et ludique </strong>un dimanche sur
-                  deux
+                  Un<strong> brunch familial pour petits et grands</strong> les
+                  3e dimanches du mois
                 </li>
               </ul>
             </h5>

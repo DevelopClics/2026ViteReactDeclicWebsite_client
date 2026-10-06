@@ -35,6 +35,22 @@
   margin-top: -0.3vh !important;
   height: 3vh;
 }
+.ess-image {
+  position: absolute;
+  bottom: 60%;
+  right: 0;
+
+  width: 450px;
+  height: auto;
+  z-index: 10;
+}
+
+@media (max-width: 768px) {
+  .ess-image {
+    bottom: 1%;
+    width: 200px;
+  }
+}
 
 @media (min-width: 576px) {
 }

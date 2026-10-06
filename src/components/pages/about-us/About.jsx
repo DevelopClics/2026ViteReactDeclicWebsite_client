@@ -22,9 +22,11 @@ const About = () => {
           bannerXS="/images/bannieres/visuel-about-xs.jpg"
         />
       </div>
-      <div id="national-experimention" className="pt-5 mb-5"></div>
-
-      <div className="container-fluid titre-container">
+      <div
+        id="national-experimention"
+        className="container-fluid titre-container pt-1 mb-5"
+        style={{ scrollMarginTop: "150px" }}
+      >
         <div className="row pt-0">
           <div className="decal-left col text-start text-light">
             <TitleOne l1="Qui" l2="sommes nous ?" />
@@ -33,8 +35,11 @@ const About = () => {
       </div>
       <AboutExperiment />
 
-      <div id="tzcld" className="pt-5"></div>
-      <div className="container-fluid titre-container">
+      <div
+        id="tzcld"
+        className="container-fluid titre-container pt-1 mb-5"
+        style={{ scrollMarginTop: "150px" }}
+      >
         <div className="row pt-0">
           <div className=" col text-start text-light">
             <TitleOne l1="Territoire" l2="Zéro Chômeur" l3="de Longue Durée" />
@@ -43,18 +48,22 @@ const About = () => {
       </div>
       <AboutTzcld />
 
-      {/* <div id="dedc" className="pt-5"></div> */}
-      <div id="team" className="pt-5"></div>
-      <div className="container-fluid titre-container">
-        <div className="row pt-0">
-          <div className="col text-start text-light">
-            <TitleOne l1="L'équipe" l2="de Déclic" />
+      <div style={{ minHeight: "calc(100vh - 100px)" }}>
+        <div
+          id="team"
+          className="container-fluid titre-container pt-1 mb-5"
+          style={{ scrollMarginTop: "150px" }}
+        >
+          <div className="row pt-0">
+            <div className="col text-start text-light">
+              <TitleOne l1="L'équipe" l2="de Déclic" />
+            </div>
           </div>
         </div>
-      </div>
 
-      <AboutVisualsTeam />
-      <AboutTeam />
+        <AboutVisualsTeam />
+        <AboutTeam />
+      </div>
 
       <div className="mb-5 pb-5"></div>
     </>

@@ -1,4 +1,50 @@
 [
+   {
+    "id": "6",
+    "pct": "/images/nextEvents/2026-09-26-KoralOk_web.png",
+    "title": "Karaoké Chorale",
+    "place": "LOL ",
+    "day": "Vendredi",
+    "date": "25 septembre",
+    "hours": "à partir de 19h",
+    "content1": "Ce vendredi au LOL, c’est Karaoké chorale !",
+
+    "content2": "Un Karaoké oui, mais TOUS et TOUTES ensemble…",
+    "content3": "Vous choisissez les morceaux et tout le monde reprend le refrain.",
+    "content4": "",
+    "subcontent1": "",
+    "subcontent2": "",
+    "subcontent3": "",
+    "subcontent4": "",
+    "subcontent5": "Buvette et petite restauration sur place.",
+    "resa": "",
+    "cost": "",
+
+    "link": "news/#6"
+  },
+   {
+    "id": "3",
+    "pct": "/images/nextEvents/2026-09-19-Soirée-loup-garou-web.png",
+    "title": "Soirée les loups-garous de Thiercelieux ",
+    "place": "LOL",
+    "day": "samedi",
+    "date": "19/09/2026",
+    "hours": "à partir de 19h",
+    "content1": "📣 Avis aux fans du célèbre jeu : Loup Garou",
+    "content2": "",
+    "content3": "😯 Le village de Thiercelieux semble en apparence normal, mais chaque nuit certains villageois se transforment en loups-garous pour dévorer d'autres villageois. Chaque matin venu, les villageois découvrent une personne qui manque à l'appel et se réunissent pour tenter de démasquer les loups-garous se cachant parmi eux.",
+    "content4": "",
+    "content5": "👉 A vous déjouer et de sauver votre peau avant que les loups garous ne vous dévorent.",
+    "subcontent1": "",
+    "subcontent2": "",
+    "subcontent3": "",
+    "subcontent4": "",
+    "subcontent5": "C’est gratuit et c’est au LOL bien sûr !!",
+    "resa": "",
+    "cost": "gratuit",
+
+    "link": "news/#3"
+  },
   {
     "id": "1",
     "pct": "/images/nextEvents/2026-07-19_voyage-en-cuisine.jpg",

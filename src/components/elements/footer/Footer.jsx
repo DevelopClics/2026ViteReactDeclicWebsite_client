@@ -28,14 +28,16 @@ const Footer = () => {
         <img
           src={ESS}
           alt="Engagé pour l'ESS"
-          style={{
-            position: "absolute",
-            bottom: "60%",
-            right: "0",
-            width: "500px",
-            height: "auto",
-            zIndex: 10,
-          }}
+          className="ess-image"
+          // style={{
+          //   position: "absolute",
+          //    bottom: "60%",
+          //   right: "0",
+          //   width: "500px",
+
+          //   height: "auto",
+          //   zIndex: 10,
+          // }}
         />
         <h6>
           <Linky to="/#home" aria-current="page">

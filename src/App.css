@@ -499,3 +499,8 @@ li:nth-child(even)::marker {
     margin-top: 80px; /* Adjust this value if needed */
   }
 }
+
+html,
+body {
+  overflow-anchor: none;
+}

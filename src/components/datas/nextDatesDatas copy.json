@@ -1,5 +1,28 @@
 [
   {
+    "id": "7",
+    "pct": "/images/nextEvents/2026-09-20_brunch-web.jpg",
+    "title": "Brunch Familial",
+    "place": "LOL",
+    "day": "dimanche",
+    "date": "20/09/2026",
+    "hours": "à partir de 11h",
+    "content1": "« On va bruncher  🎶 dans un avion, sur le pont d'un bateau",
+
+    "content2": "On va bruncher à se brûler la peau",
+    "content3": "À s'envoler, toujours, toujours plus haut",
+    "content4": "Où l'amour est beau, oh-oh… » 🎤 ",
+    "subcontent1": "Bref…ce dimanche c’est brunch au LOL !!",
+    "subcontent2": "Vous connaissez le principe :",
+    "subcontent3": "❇️ Ici, pas de toast eu foie gras, pas de saumon sur vos tartines, mais des produits frais privilégiant le circuit court pour des recettes familiales, généreuses et gourmandes !",
+    "subcontent4": "❇️ Venez comme il vous plaira, en chausson, en pyjama, en robe de soirée... participer à ce temps convivial et joyeux.",
+    "subcontent5": "❇️ On s'installe les uns à coté des autres, et une fois que chacun est rassasié, place aux jeux de société !",
+    "resa": "☎️ Réservation 06 58 23 03 26",
+    "cost": "💰 12€ adulte / 10€ enfant",
+
+    "link": "news/#7"
+  },
+  {
     "id": "15",
     "pct": "/images/nextEvents/2026-07-25-KoralOk-web.png",
     "title": "Karaoké Chorale",

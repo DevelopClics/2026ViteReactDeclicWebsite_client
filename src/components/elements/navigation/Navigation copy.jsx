@@ -20,8 +20,18 @@ const Navigation = () => {
 
   const scrollWithOffset = (el) => {
     const yOffset = -100; // Standard offset to account for navbar height
-    const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
-    window.scrollTo({ top: y, behavior: "smooth" });
+    const scroll = () => {
+      const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({ top: y, behavior: "smooth" });
+    };
+
+    // Initial scroll
+    scroll();
+
+    // Multiple delayed calls to catch layout shifts from loading images
+    setTimeout(scroll, 300);
+    setTimeout(scroll, 800);
+    setTimeout(scroll, 1500);
   };
 
   const navLinks = [
